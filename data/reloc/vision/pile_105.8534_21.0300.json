@@ -1,0 +1,218 @@
+{
+ "pile": "105.8534,21.0300",
+ "verdict": "genuine_place",
+ "verdict_reason": "Nearly every sampled frame is the same event in the same place: Lunar New Year's eve of Tan Mao 2011 at Hoan Kiem Lake. Positively identified in the pixels are the floodlit Turtle Tower (twice), the neon-outlined over-water Thuy Ta pavilion (twice), the Ly Thai To statue terrace with its New Year crowd (twice), a People's Council/Committee building hung with 'MUNG XUAN TAN MAO' banners, lantern-hung lakeside trees, closed lakeside streets with Phuc/Loc roundels, and a 'Tan Mao 2011' stage. The 14 firework frames carry no ground detail but sit inside that one continuous burst sequence. The pin at 105.8534,21.0300 is on the lake's eastern shore, a plausible camera position for all of it. Caveat: this is one night shot by essentially one or two uploaders (a 5418* batch plus a single 4233* daytime lakeside frame), so it is a genuine place but not independently corroborated by many photographers.",
+ "place_if_genuine": "Hoan Kiem Lake, Hanoi",
+ "photos": [
+  {
+   "id": "4233676460",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Daytime: woman photographing across a misty lake from a pink-patterned tiled promenade, cast-stone bench with a green tree-logo ad panel, weeping willow and a fan palm; far shore is a low treed embankment. Bench type, ad panel and paving match the Hoan Kiem promenade, but no landmark is in frame."
+  },
+  {
+   "id": "5418040835",
+   "place": "Ly Thai To statue, Ly Thai To flower garden, Dinh Tien Hoang, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Night crowd sitting on the broad stone steps below a robed bronze figure on a tall pedestal, on a diamond-patterned tiled plaza with mature trees; matches the Ly Thai To monument terrace, the same statue positively lettered 'LY T...' in another pile."
+  },
+  {
+   "id": "5418041947",
+   "place": "Ly Thai To statue, Ly Thai To flower garden, Dinh Tien Hoang, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.78,
+   "evidence": "Same statue, same stepped plaza and same crowd as 5418040835, framed slightly wider."
+  },
+  {
+   "id": "5418044265",
+   "place": "Turtle Tower (Thap Rua), Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.9,
+   "evidence": "The tiered Turtle Tower picked out in warm floodlight on its islet, reflected in black water, with strings of coloured festival lights along the far shore. New Year illumination of Thap Rua."
+  },
+  {
+   "id": "5418053101",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Night view across the lake: coloured paper lanterns hung in a foreground tree, and on the far shore a long low building over the water with its curved tile roof outlined in green neon (the Thuy Ta pavilion at the lake's north-west corner) plus lit city blocks behind."
+  },
+  {
+   "id": "5418057137",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.4,
+   "evidence": "Two inflated cat lanterns and glowing ball lanterns against black - Year of the Cat (Tan Mao 2011) Tet decoration. Dates the night but carries no location content of its own; placed by the surrounding lake frames of the same sequence."
+  },
+  {
+   "id": "5418073097",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Crowd standing on a road closed to traffic, red flags and pennant bunting strung overhead, a green laser sweeping the trees, and a lit two-storey colonial building with an arcaded ground floor behind. Lakeside Tet street closure; the building is not lettered."
+  },
+  {
+   "id": "5418090413",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.35,
+   "evidence": "Posed family group in winter coats at night under trees with red lanterns and a strung-light backdrop. Same night and crowd as the identified lake frames, but nothing in frame fixes the spot."
+  },
+  {
+   "id": "5418108155",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.2,
+   "evidence": "Tight portrait of two children in a packed night crowd, girl in a white dress and tiara. Background is bodies only - no signage, building or landmark."
+  },
+  {
+   "id": "5418116803",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418126953",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418131189",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418141747",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. A spherical white street-lamp globe on its post intrudes at the top of frame, so the camera is under park/promenade lighting, not on a rooftop. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418143041",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418147699",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. A spherical white street-lamp globe on its post intrudes at the top of frame, so the camera is under park/promenade lighting, not on a rooftop. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418155301",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. A spherical white street-lamp globe on its post intrudes at the top of frame, so the camera is under park/promenade lighting, not on a rooftop. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418157239",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. A spherical white street-lamp globe on its post intrudes at the top of frame, so the camera is under park/promenade lighting, not on a rooftop. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418159037",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418167739",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418178011",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418189293",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418195539",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418210283",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Aerial firework burst against black sky, framed by silhouetted tree canopy at the edges. No ground detail is visible; placed only because this is one continuous Tan Mao 2011 New Year burst-sequence bracketed by frames positively identified as Hoan Kiem Lake (Turtle Tower, Ly Thai To statue), not from the geotag."
+  },
+  {
+   "id": "5418651814",
+   "place": "Hanoi People's Committee building, Dinh Tien Hoang, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Grey stone-clad modernist government block carrying the Vietnamese national emblem, flagpoles, and Tet banners; zoomed and read them: 'MUNG XUAN TAN MAO / MUNG DANG QUANG VINH / MUNG DAT NUOC VA THU DO DOI MOI', a party-anniversary banner '...NGAY THANH LAP DANG CONG SAN VIET NAM 1930-2011', and a plaque board reading 'HOI DONG NHAN DAN' / 'UY BAN NHAN DAN'. So it is a People's Council/Committee HQ; the city hall on Dinh Tien Hoang by the lake fits, but the body is not named on any legible sign, so a district committee cannot be fully ruled out."
+  },
+  {
+   "id": "5418655634",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Wide tree-lined avenue given over to pedestrians at night, illuminated Tet roundels of the character Phuc/Loc on poles, a red banner spanning the road, big plane-type trees both sides. The lakeside boulevard on Tet eve, but no street plate visible."
+  },
+  {
+   "id": "5418660990",
+   "place": "Thuy Ta pavilion, Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.65,
+   "evidence": "A long low building standing over the water, its curved pagoda-style roof and terrace edges traced in green, blue and white neon, mirrored in the lake, with dark city blocks rising behind. Same illuminated structure as in 5418053101; the over-water pavilion at the lake's north-west corner."
+  },
+  {
+   "id": "5418672450",
+   "place": "Turtle Tower (Thap Rua), Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "Wide night frame of the lake with the floodlit tiered Turtle Tower at right centre and coloured lighting along the shoreline, all reflected in still water."
+  },
+  {
+   "id": "5418674954",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Crowd under a tree wrapped in white fairy lights, red pennant bunting overhead; zoomed the building behind - two storeys, cream render, tall arched French windows with green louvred shutters, iron balcony and a curved corner bay, floodlit. A colonial block on the lakeside plaza, unlettered."
+  },
+  {
+   "id": "5418683664",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.2,
+   "evidence": "Four young people holding wrapped bouquets at night, coloured lights bokeh behind. No place content."
+  },
+  {
+   "id": "5418685642",
+   "place": "Hoan Kiem Lake, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.4,
+   "evidence": "Five dancers in green-and-yellow ao dai on an outdoor stage in front of a red backdrop reading 'Tan Mao 2011' in gold script. Fixes the date (Lunar New Year, Feb 2011) but not the venue; assigned from the surrounding lakeside sequence, not from any sign."
+  }
+ ]
+}

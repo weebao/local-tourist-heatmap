@@ -1,0 +1,22 @@
+{
+ "pile": "105.8536,21.0283",
+ "verdict": "genuine_place",
+ "verdict_reason": "Only 2 of this pile's 21 photos are on the sheet, so this verdict is weak by construction and the two surviving ids are adjacent (4355923040 / 4361403431), i.e. probably one wedding photographer's set rather than three independent people. Both frames are the same subject at what is visually the same place: a wedding shoot on a lake promenade with the low arched-loop iron fence, granite benches, willows and a park strip on the far bank that characterise Hoan Kiem Lake, and the pin does sit on the lake's south-east shore. Nothing contradicts a single genuine place, but with n=2 out of 21 and no legible sign in either frame I cannot rule out that this pin is a Hoan Kiem place-centroid collecting photos from elsewhere.",
+ "place_if_genuine": "Hoan Kiem Lake",
+ "photos": [
+  {
+   "id": "4355923040",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.65,
+   "evidence": "Wedding couple in red brocade ao dai and mandarin hats on a granite bench at a lake shore: weeping willow overhead, a low black iron fence of adjoining semicircular arches running along the grass at the water's edge, a paved promenade with pedestrians visible on the far bank ~150 m away, and two mid-rise buildings (a wide white block with a rooftop sign band and a rounded balconied tower) above the far treeline. The arched-loop lakeside fence, willows, granite benches and encircling park strip are the Hoan Kiem Lake promenade; I could not read the far-shore signs, so another central-Hanoi lake with the same municipal fence pattern is not fully excluded."
+  },
+  {
+   "id": "4361403431",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Bride and groom under a huge bare-branched tree on the same kind of lake-edge walk - stone kerb at the waterline, the same low black arched-loop iron fence, paved promenade curving away to the right, willow foliage, and a hazy shore of low buildings with a red flag across the water. Same shore and same fence pattern as 4355923040; no text anywhere in frame."
+  }
+ ]
+}

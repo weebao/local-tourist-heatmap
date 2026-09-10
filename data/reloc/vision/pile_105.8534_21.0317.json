@@ -1,0 +1,22 @@
+{
+ "pile": "105.8534,21.0317",
+ "verdict": "genuine_place",
+ "verdict_reason": "Only 2 of the pile's 12 photos are on disk, so this is a thin sample, but both tiles are water-puppet (mua roi nuoc) performance shots and they come from two different photographers. One shows the full stage: a multi-tiered dark-red tiled pagoda roof over the pool, a maroon banner embroidered with two dragons and a flaming-pearl medallion, long knotted fringe below it, red-painted railings and flag standards at the sides, and rows of audience silhouettes in the dark foreground. The other is a close-up of lotus-crowned puppets standing in the water with the same scalloped, knotted maroon fringe filling the top of the frame. Same indoor water stage, two photographers, one subject - consistent with a real venue rather than a pin that unrelated photos were dumped on. Caveat: with n=2 I cannot exclude a Hoan Kiem place-centroid, and the venue name below rests on the stage design, not on any legible sign.",
+ "place_if_genuine": "Thang Long Water Puppet Theatre",
+ "photos": [
+  {
+   "id": "2206736547",
+   "place": "Thang Long Water Puppet Theatre",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Indoor water-puppet stage seen from the stalls: waist-deep pool at audience eye level, a thuy dinh facade with a two-tier dark-red glazed tile roof and upturned dragon-carved eave ends, a wide maroon curtain embroidered with a facing dragon pair and a central flaming-pearl medallion, heavy knotted fringe hiding the puppeteers, red-painted balustrade and a lacquered square flag standard at each side, ten costumed puppets in the water, audience heads in silhouette. Purpose-built traditional-style hall with the stage at eye level and a tiled thuy dinh matches Thang Long's stage; no sign or ticket is legible, so another Hanoi water-puppet stage (e.g. the national puppetry theatre) is not fully excluded."
+  },
+  {
+   "id": "1467793002",
+   "place": "Thang Long Water Puppet Theatre",
+   "specificity": "landmark",
+   "confidence": 0.4,
+   "evidence": "Tight shot of eight or nine water puppets - painted wooden figures in orange lotus-petal crowns, red-and-blue robes, jointed arms - standing half-submerged in dark water with their reflections. The only background is the bottom of a maroon stage banner with a scalloped festoon top and long alternating light/dark knotted fringe, which brightening confirms is the same fringed banner style as the full-stage frame in this pile. No sign, caption or architecture in frame, so the venue is inferred from the matching stage dressing only; the subject alone (Vietnamese water puppetry) would not pin a city."
+  }
+ ]
+}

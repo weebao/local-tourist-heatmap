@@ -1,0 +1,24 @@
+{
+ "photographers": {
+  "local": 145,
+  "tourist": 613,
+  "unknown": 202
+ },
+ "photographers_on_map": {
+  "local": 140,
+  "tourist": 530,
+  "unknown": 147
+ },
+ "photographers_on_map_total": 817,
+ "masked_on_discredited_pins": 1351,
+ "points": {
+  "local": 8812,
+  "tourist": 10258,
+  "unknown": 1204
+ },
+ "connecting_lines": 2524,
+ "cross_class_line_px": 3636,
+ "frame": "EquirectFrame(6137px, bounds S20.926386 W105.728233 N21.144091 E105.961466, 3.95 m/px)",
+ "bounds_source": "Fischer bounds/flickr-picasa cluster 124",
+ "relocated": 367
+}

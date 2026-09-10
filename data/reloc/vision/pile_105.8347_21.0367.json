@@ -1,0 +1,85 @@
+{
+ "pile": "105.8347,21.0367",
+ "verdict": "genuine_place",
+ "verdict_reason": "All 11 tiles present are the same building or the plaza in front of it. Eight are the Ho Chi Minh Mausoleum with the raised frieze 'CHU TICH HO CHI MINH' legible in day, night and floodlit-red versions; two are wide views of Ba Dinh Square in which that mausoleum plus the slogan banners 'MUON NAM !' and 'CHU TICH HO CHI MINH VI DAI SONG MAI TRONG...' are readable; the eleventh is a ceremonial guard in white dress uniform against the mausoleum's polished granite panelling. Six different photographers in the sample, no outliers at all - this is a real, heavily photographed place, not a dumping ground.",
+ "place_if_genuine": "Ho Chi Minh Mausoleum",
+ "photos": [
+  {
+   "id": "4157444767",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.97,
+   "evidence": "Grey granite stepped mausoleum with a colonnade of square granite piers between dark red panels; the frieze reads 'CHU TICH / HO CHI MINH' in raised letters. Clipped hedge and red-flowered beds along the base, honour guards flanking the doorway, wide concrete plaza in front. Unmistakable Ho Chi Minh Mausoleum."
+  },
+  {
+   "id": "4504687866",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.97,
+   "evidence": "Mausoleum facade with 'HO CHI MINH' legible on the frieze, palms at right, a red carpet strip leading to the entrance, uniformed guards and a queue of visitors, and the large concrete slab paving of Ba Dinh Square in the foreground."
+  },
+  {
+   "id": "4550322359",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.97,
+   "evidence": "Three-quarter view of the same granite mausoleum across the square, frieze lettering faintly legible, long red-and-white flower beds and clipped topiary along the plinth, dark rank of guards along the front - same building, same plaza."
+  },
+  {
+   "id": "5003547384",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.97,
+   "evidence": "Night shot of the mausoleum floodlit white with the recessed bays behind the colonnade lit red and 'CHU TICH HO CHI MINH' picked out on the frieze; a Vietnamese flag pole and lit trees at the base. The red-lit colonnade is the standard night lighting of this building."
+  },
+  {
+   "id": "6910021598",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.97,
+   "evidence": "The mausoleum seen from its garden side over clipped topiary balls and bonsai in pots, bare branches framing the top; the stepped granite mass with the colonnade of piers and the flat overhanging cornice is the same structure, with a red flag and a crane behind."
+  },
+  {
+   "id": "6910024882",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.97,
+   "evidence": "Night view from the square: floodlit granite mausoleum, red-lit colonnade, 'CHU TICH HO CHI MINH' on the frieze, low illuminated planting, a guard in white walking on the empty plaza."
+  },
+  {
+   "id": "7056111351",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.97,
+   "evidence": "Very dark night frame with the small floodlit mausoleum facade - white cornice over the red-lit colonnade - at the far side of the unlit square; the lit facade profile is unmistakable even though nothing else is visible."
+  },
+  {
+   "id": "8192678797",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.97,
+   "evidence": "Steep upward view of the granite cornice and frieze reading 'CHU TICH  HO CHI MINH' against a pale sky, the polished dark granite fascia and stepped roof edge filling the frame."
+  },
+  {
+   "id": "4504051487",
+   "place": "Ba Dinh Square",
+   "specificity": "landmark",
+   "confidence": 0.93,
+   "evidence": "A group in ao dai crossing the huge slab-paved plaza past the grey granite flank of the mausoleum at left; on the far wall a long green banner reads 'CHU TICH HO CHI MINH VI DAI SONG MAI TRO...' (the standard Ba Dinh Square slogan), with rows of flagpoles, clipped topiary in pots and a white-uniformed guard. The banner text plus the mausoleum flank fixes this as Ba Dinh Square."
+  },
+  {
+   "id": "4504052873",
+   "place": "Ba Dinh Square",
+   "specificity": "landmark",
+   "confidence": 0.95,
+   "evidence": "Wide view across the concrete plaza: the mausoleum in the centre with 'HO CHI MINH' on the frieze, a long visitor queue along its front, a red banner reading 'MUON NAM !' on the left wall and the green 'CHU TICH HO CHI MINH VI DAI SONG MAI TRONG...' banner on the right, flagpoles and palms behind."
+  },
+  {
+   "id": "7056110709",
+   "place": "Ho Chi Minh Mausoleum",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "A single sentry in full white ceremonial dress - white peaked cap with red-star badge, gold aiguillette, white belt and gloves, red side-striped trousers - standing against a wall of large polished grey-green granite panels with a deep recessed opening at right. The granite panelling and the ceremonial guard uniform match the mausoleum wall and its honour guard; the guard is the only subject, so the read is from uniform plus stonework rather than from any sign."
+  }
+ ]
+}

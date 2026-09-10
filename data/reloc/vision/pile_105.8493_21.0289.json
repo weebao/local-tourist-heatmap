@@ -1,0 +1,218 @@
+{
+ "pile": "105.8493,21.0289",
+ "verdict": "genuine_place",
+ "verdict_reason": "The pin sits on St Joseph's Cathedral and twelve of the thirty sampled frames show the building itself beyond doubt - the twin square bell towers, rose window and three pointed-arch portals, the forecourt garden with its statue and topiary, the wide entrance steps, the white picket fence round the plaza, and the stacked blue plastic chairs against its rusticated flank - shot on several different occasions and with different cameras (including three fisheye frames). Most of the remainder are portraits and candids from photo-club meetups on the same plaza, several of which still show the cathedral's spear-head railing or its broad stone steps. So the coordinate is a real place, not a meaningless centroid. Two caveats, stated honestly: one black-and-white indoor portrait session (3500582969, 3501397472, 3501397652, 3501398208, with leather armchairs and a stone Buddha bust) is plainly an interior somewhere else, and roughly eight tight portraits carry no location evidence at all, so the pile is 'genuine place plus the photographers' own faces'.",
+ "place_if_genuine": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+ "photos": [
+  {
+   "id": "3403538085",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.2,
+   "evidence": "Portrait of a young man on a blue plastic chair at a pavement stall; behind him parked motorbikes, a big street tree and shop awnings, and a blue fascia at top right that stays illegible even zoomed. Typical Hanoi kerbside tea stop, but nothing fixes the block."
+  },
+  {
+   "id": "3403538485",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.35,
+   "evidence": "Same pavement session; behind the sitter is a raised terrace with wide stone steps and a spear-head iron railing, white-shirted people on it, low buildings beyond. The steps-plus-railing combination matches the cathedral forecourt seen in other frames of this pile, but the church itself is out of frame."
+  },
+  {
+   "id": "3404350992",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.2,
+   "evidence": "Man on a low plastic stool with glasses of iced lemon tea and a jug in the foreground, ranks of parked motorbikes and a red Vespa behind. Classic tra chanh stall, no locating detail."
+  },
+  {
+   "id": "3450856847",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Portrait of a young Western man standing directly in front of coursed grey ashlar with a pointed-arch opening and a slender attached shaft - Gothic-revival stonework matching the cathedral facade photographed repeatedly in this pile."
+  },
+  {
+   "id": "3500582969",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "High-key black-and-white indoor portrait of a woman by a bright window. Interior, no place content."
+  },
+  {
+   "id": "3501397472",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "Black-and-white indoor portrait of a young man against dark furniture and a bright window - same interior session as 3500582969."
+  },
+  {
+   "id": "3501397652",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "Black-and-white indoor portrait of the same woman, dark leather chair backs behind. Interior session."
+  },
+  {
+   "id": "3501398208",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.15,
+   "evidence": "Black-and-white indoor portrait of a man in a studded leather armchair with a pale stone Buddha bust on a plinth behind him and a shelving unit at right. Clearly a cafe/gallery interior, definitely NOT the cathedral, but unnamed."
+  },
+  {
+   "id": "3509546084",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "Fisheye self-portrait reflected in a convex traffic mirror; only sky, wires and foliage are readable around it."
+  },
+  {
+   "id": "3512108571",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.9,
+   "evidence": "Fisheye frame of the cathedral's twin square towers and gabled west front seen across its forecourt garden, with the clipped shrubs, urns and the statue on its plinth in the middle of the paved path."
+  },
+  {
+   "id": "3520653483",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "Tight shot of a man exhaling smoke beside a boy in a blue tee; background is bokeh of parked motorbikes only."
+  },
+  {
+   "id": "3521464812",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.15,
+   "evidence": "Young man in a red-strapped backpack reaching toward the lens; behind him a street with parked bicycles and a blue awning, nothing legible."
+  },
+  {
+   "id": "3521465498",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "Close portrait of a Western man in a striped tee against a blown-out background. No place content."
+  },
+  {
+   "id": "3528832355",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.9,
+   "evidence": "Fisheye of the cathedral's west front with its blue-panelled central door and rose window above, a large crowd standing on the wide stone entrance steps, trees curving over at the left."
+  },
+  {
+   "id": "3533480341",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.9,
+   "evidence": "Fisheye of the cathedral towers rising over the forecourt garden - clipped topiary balls, flowerbeds and the paved path - from the railing side."
+  },
+  {
+   "id": "3533573397",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.3,
+   "evidence": "Fisheye of the photographer's group sitting on low stools on a pavement with motorbikes, big street trees and shopfronts behind, plus a double-exposure ghost. Same meetup as the cathedral frames but the church is not in shot."
+  },
+  {
+   "id": "3534391162",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.35,
+   "evidence": "Fisheye dusk portrait of a man in a striped shirt; behind him a tall spear-head iron railing, tree canopy, an orange street lamp and blocks in silhouette. The railing matches the cathedral compound fence, but at this light level that is soft evidence."
+  },
+  {
+   "id": "3534391320",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "Fisheye looking straight up into a spreading tree canopy against a white sky. No ground detail."
+  },
+  {
+   "id": "3541024209",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Black-and-white candid of a knot of young people with SLRs among parked motorbikes, a coconut vendor's fruit hanging at the right, and a tall spear-head iron railing running behind them - the compound fence, with the group's cameras confirming this is the same photo meetup as the identified cathedral frames."
+  },
+  {
+   "id": "3715103461",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "Flash portrait of a smiling man in a pale blue shirt at night; the rest of the frame is essentially black. No place content."
+  },
+  {
+   "id": "3735588219",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.95,
+   "evidence": "Full elevation of the cathedral: twin square bell towers with paired lancets, central gable, pointed-arch portal and the grey mottled stone, seen from the plaza with overhead power lines crossing the frame."
+  },
+  {
+   "id": "3735589131",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "Boys playing football on the paved plaza in front of the church's lower west front - tall arched timber doors, stone buttresses and the white picket iron fence enclosing the forecourt."
+  },
+  {
+   "id": "3736381944",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.95,
+   "evidence": "The cathedral's west front head-on: rose window, three pointed-arch portals, blind arcading, with two boys playing football in the foreground plaza."
+  },
+  {
+   "id": "3760244249",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.9,
+   "evidence": "The cathedral's side entrance in grey ashlar with a moulded pointed-arch doorway and buttresses, its broad stone steps, stacked blue plastic chairs and people sitting in the shade."
+  },
+  {
+   "id": "3772190335",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Girl in a white embroidered dress on broad, worn stone steps. The steps are the same wide masonry flight as 3772221657 from this uploader's sequence at the church, but the building is out of frame."
+  },
+  {
+   "id": "3772216065",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.65,
+   "evidence": "Elderly man in a bucket hat holding a yellow booklet on a wide open paved plaza with parked cars, and a balloon seller with a huge bunch of foil balloons against a tall iron fence with trees behind. The enclosed plaza, iron fence and balloon vendors match the cathedral forecourt, and the booklet reads as a churchgoer's prayer book."
+  },
+  {
+   "id": "3772221657",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Black-and-white: broad, worn stone steps in several flights, a spear-head iron fence topped with barbed wire at the left, people standing about, and at the right edge the corner of a massive grey masonry building with tall openings - the cathedral's flank and forecourt steps."
+  },
+  {
+   "id": "3773021118",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Balloon seller walking away across grey pavement, entirely hidden behind a bunch of foil balloons. Same vendor and pavement as 3772216065 at the church plaza; no landmark in frame."
+  },
+  {
+   "id": "3773021796",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "Stacks of blue and red plastic chairs against the cathedral's grey rusticated stone wall with a pilaster, people sitting on the step and a man walking past - the same wall and chair stacks as 3760244249."
+  },
+  {
+   "id": "3800940917",
+   "place": "St Joseph's Cathedral (Nha Tho Lon), Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Black-and-white: a figure standing before a huge grey masonry wall with tall recessed openings, another person in white inside the dark opening. Scale, coursing and openings match the cathedral flank."
+  }
+ ]
+}

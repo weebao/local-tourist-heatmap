@@ -1,0 +1,162 @@
+{
+  "pile": "105.8199,21.0319",
+  "verdict": "dumping_ground",
+  "verdict_reason": "The 22 sampled tiles have no common subject, no common setting and no common photographer style. They include studio product shots of Zippo lighters on burlap (5371892723, 5375512453), a scan/screenshot of a printed music-school advertising flyer (10181443455), a studio angel-wings portrait (8153711438), a stage shot of a tuxedoed boy-band (6204274905), and then a scatter of mutually distant real Hanoi locations that are kilometres apart: Ho Chi Minh's Mausoleum on Ba Dinh Square (3811893081), the Hanoi Opera House and Hilton Hanoi Opera (6216493811), a hotel facade reading 'ALPO HOTEL / No 9 Nguyen Thai Hoc' (179682912), a cafe with a '52 Nguyen Du' board and a '52' house number (6851189455), the railway running between tube houses on Train Street (5552317515), and a large thatched Central-Highlands-style rong communal house in a crowded park (3482785130). Nothing in any tile shows the reverse-geocoded location - a minor alley off Pho Kim Ma in Ba Dinh: no alley wall, no Kim Ma streetscape, no repeated building. 140 photographers pinned to one identical point with unrelated content is the signature of a place-picker centroid, not of a place.",
+  "place_if_genuine": null,
+  "photos": [
+    {
+      "id": "10181443455",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Flat scan/composite of printed advertising material for 'TRUNG TAM NGHE THUAT MR THUONG' (a music/karaoke school): a pink banner plus two leaflets on a black background. It depicts no physical place at all. The leaflets list branch addresses (31 Khuat Duy Tien - Thanh Xuan; 78 Tran Hung Dao - Hoan Kiem; Tang 2, 185 Chua Lang - Dong Da) but those are the client's shops, not where the shutter was pressed, so I will not use them as a location."
+    },
+    {
+      "id": "11095026175",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Interior of a cramped tea/coffee shop: strip fluorescent tube, yellow plaster walls, a black service counter with glass candy jars and thermos flasks, ~12 young men sitting on low stools looking at phones. Zoomed the counter card at 5x - handwriting is illegible. Only legible print is a red Liverpool FC fixture poster on the back wall. No street plate, no house number, no window view. Nothing places it."
+    },
+    {
+      "id": "162175654",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Pavement fruit stall: styrofoam trays of mangosteen, dragonfruit, mango, avocado, melon on a raised kerb; woman squatting stringing vegetables. Zoomed the vertical blue signboard at 6x: it reads 'HOA QUA' in yellow over red script 'Uon' / 'Mi' - a shop-type sign with no street name and no house number. A motorbike plate is behind the doorway but far too small to resolve. No street-name plate anywhere in frame."
+    },
+    {
+      "id": "179682912",
+      "place": "9 Nguyen Thai Hoc, Hanoi",
+      "specificity": "street",
+      "confidence": 0.93,
+      "evidence": "Two separate legible signs on the same building: a dark fascia reading 'ALPO HOTEL / No 9 NGUYEN THAI HOC' and, below it, a green-on-cream awning reading 'KHACH SAN ALPO / 9 Nguyen Thai Hoc'. The Nokia/Motorola dealer sign to the right independently corroborates the street: 'DC: 11 Nguyen Thai Hoc'. Two adjacent house numbers on one street is a self-consistent address block."
+    },
+    {
+      "id": "229163295",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "A person in dark clothes asleep on three shallow terrazzo steps in front of a rust-red concertina steel shutter; white rendered pilaster with quoin blocks, black wrought-iron window grille, a shrub in a stone-clad planter, wet grey pavement scattered with yellow fallen leaves. Vietnamese-typical shopfront hardware but no text of any kind, no house number, no landmark, no view down the street."
+    },
+    {
+      "id": "2891787538",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Street flower vendor in a conical palm hat holding cones of orange marigolds beside a bicycle-mounted tray of roses, chrysanthemums and gladioli. Background: a long blank white rendered boundary wall, tall feathery trees (looks like a raintree/Albizia avenue), a quiet tree-lined road with a motorbike far off. No signage, no house numbers, no landmark. The blank-wall-plus-avenue combination fits dozens of Hanoi streets."
+    },
+    {
+      "id": "3482785130",
+      "place": "Vietnam Museum of Ethnology, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.5,
+      "evidence": "A very large Central-Highlands rong communal house: broad splayed trapezoidal thatch roof with upturned horn finials and a white decorated ridge comb, raised on stout wooden piles, with a notched log stair up which schoolchildren are climbing. It stands on mown lawn inside landscaped parkland, surrounded by ~100 visitors in modern city clothes and school groups. That combination - a Highlands house type set in a manicured urban park full of Hanoi schoolchildren - means an open-air ethnographic park, not a real Highlands village. The Vietnam Museum of Ethnology (Nguyen Van Huyen, Cau Giay) is the best-known such site, but I could NOT read any signage, so I cannot exclude the Vietnam National Village for Ethnic Culture and Tourism at Dong Mo, Son Tay (also Hanoi). Confidence held at 0.5 for that reason."
+    },
+    {
+      "id": "3811893081",
+      "place": "Ho Chi Minh Mausoleum, Ba Dinh Square, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.97,
+      "evidence": "The mausoleum's unmistakable stepped grey granite cube with a colonnade of square piers under a flat overhanging slab, fronted by tiered terraces and flagpoles, on the far side of a vast plain concrete parade ground scored into large rectangular slabs. A green banner along the terrace reads 'NUOC CONG HOA XA HOI CHU NGHIA VIET NAM MUON NAM'. A long queue of visitors plus a rank of white-uniformed honour guard runs across the frame. This is Ba Dinh Square."
+    },
+    {
+      "id": "5009458365",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Panned night shot, blue Honda-type motorbike with two riders sharp against a motion-smeared street of shuttered shopfronts. Photographer has added a black border with the caption 'Vietnam' and a copyright line. The only background lettering is a red illuminated sign blurred beyond reading. No plate, no street name, nothing resolvable."
+    },
+    {
+      "id": "5234801344",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Carved grey stone statue of a military mandarin/guardian in helmet and armour holding a mace, standing against a huge mottled round column, on herringbone-laid red brick paving beside a low whitewashed wall with clipped shrubs and tufted grass. A tiled eave and an unread grey stone slab (possibly a stele) are behind. Stone mandarin guardians of this type occur at many temples and stone tombs in and around Hanoi; nothing here - no stele text, no gate, no plaque - narrows it to one. Refusing to guess a temple."
+    },
+    {
+      "id": "5371892723",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Three-panel studio product shot on hessian/burlap cloth: a chrome Zippo lighter with a Carolina Panthers logo, its tin, an NFL card pack, and a close-up of the orange 'IMPORTANT INSTRUCTIONS' warranty sticker. Indoor tabletop, no environment visible. Contains no geographic information whatsoever."
+    },
+    {
+      "id": "5375512453",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Two-panel studio product shot on the same hessian cloth as 5371892723 (same photographer, watermark 'linhmeiji'): an engraved Camel-brand Zippo case and a macro of the base stamping 'Zippo / BRADFORD, PA. MADE IN U.S.A.'. The only text is manufacturer marking in Pennsylvania - that is where the object was made, not where the photo was taken. No environment in frame."
+    },
+    {
+      "id": "5552317515",
+      "place": "Hanoi Train Street, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.6,
+      "evidence": "Single-track ballasted railway running in a curve at ground level directly past the doorsteps of a row of narrow tube houses, with motorbikes parked on the sleeper-edge and two pedestrians walking in the track bed. Zoomed 4x: the curve continues past a paved road where a white Toyota Corolla is parked, and a hanging shop sign reads 'CAT UON / NAM NU / GOI SAY / EP THANG' (a hair salon). Track-through-housing at this intimacy is Hanoi's Train Street; I could not read a street plate, so I cannot say which section (Phung Hung / Tran Phu vs the Le Duan / Kham Thien stretch) - hence 0.6."
+    },
+    {
+      "id": "6121447810",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Close-up of orange-red silk or cotton warp threads strung on a simple wooden frame loom, inside a timber building with plank walls and a bright window slot. Craft interior, could be a weaving village workshop or a museum display anywhere in northern Vietnam. No text, no exterior, no landmark."
+    },
+    {
+      "id": "6185390666",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Dense crush of parked and moving scooters with women and children in surgical/patterned face masks; a Honda scooter badge is readable. Zoomed the white board at 5x: red hand-lettering 'TRONG' over a second line ending in 'XE' - i.e. a 'TRONG GIU XE' motorbike-parking sign, generic to the whole city. No street plate, no shop address, no landmark behind the crowd."
+    },
+    {
+      "id": "6204274905",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Four western men in black dinner jackets and bow ties singing into handheld mics on a dark stage; a pink-lit truss tower and a grey drape are the only background. Nothing identifies the venue, city or country - this is a concert photo that could be from any tour stop. No banner, no backdrop text, no crowd or building visible."
+    },
+    {
+      "id": "6216493811",
+      "place": "Hanoi Opera House (Nha hat Lon Ha Noi), Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.97,
+      "evidence": "The Opera House's exact facade: pale yellow and white French colonial front with a rusticated arcaded ground floor, an upper loggia of paired Ionic columns, two flanking domed pavilions and a slate mansard with a Vietnamese flag on the ridge. To its right, the curved cream classical block of the Hilton Hanoi Opera with a legible 'Hilton' sign. Foreground is the roundabout planter on August Revolution Square with motorbikes circulating. Two mutually confirming buildings."
+    },
+    {
+      "id": "6851189455",
+      "place": "52 Nguyen Du, Hanoi",
+      "specificity": "street",
+      "confidence": 0.8,
+      "evidence": "Coffee shop frontage. Zoomed the left-hand dark signboard at 4x: white lettering '52 NGUYEN DU' at its lower edge, with 'Gia Truyen' and 'Goc ... Ca phe' script above it. Independently, a blue-and-white house-number plate reading '52' is fixed to the concrete pillar in the middle of the same frame, which matches the signboard address. The large overhead neon reads 'CA PHE ... RANG XAY / TRADITIONAL / Gia Truyen / Giai Khat' and a smaller board 'CAFE NUOC / Mang ve'. Address and house number agree, so I am fairly confident; docked to 0.8 because I could not see a street-name plate itself."
+    },
+    {
+      "id": "7271232754",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Backlit profile of an elderly woman; behind her a temporary event archway with white harlequin-patterned turrets, a Disney castle logo and a banner reading 'NGAY HOI CONG CHUA' (Princess Festival), with white parasols, a mock stone wall and children on a paved plaza. That is a travelling promotional event, so the sign dates the occasion rather than fixing the site. No venue name, no street, no permanent building identifiable."
+    },
+    {
+      "id": "7975106862",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Faded/washed-out shot across still water: a huge banyan with buttressed trunk and curtains of aerial roots leaning over the near bank; the far bank is a low pale balustrade with a repeating openwork pattern, then mown lawn, mature trees and a few seated figures. Zoomed 4x on the shoreline - the balustrade pattern is visible but generic and there is no pavilion, tower, bridge or sign. Fits several Hanoi park lakes (Bay Mau/Thong Nhat Park, Thien Quang, the Botanical Garden lake) equally well; no Turtle Tower or red bridge to pin Hoan Kiem. Will not guess."
+    },
+    {
+      "id": "8153711438",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Studio portrait: young woman in a cream lace dress with large white feathered angel wings, arms outstretched, against a plain dark maroon vignetted backdrop, watermarked 'lengocdung photography'. Seamless studio background - there is literally no environment in the frame to locate."
+    },
+    {
+      "id": "8461611022",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.0,
+      "evidence": "Night shot down a very narrow alley about 2 m wide: yellow-lit rendered walls, a barred window, a parked motorbike, awnings and blurred neon signs receding, with a fair-haired boy in a varsity jacket in sharp foreground. Depth of field has thrown every sign completely out of focus - no legible text at all. Reads as a Hanoi Old Quarter/alley scene but there is no plate or landmark to justify a specific alley."
+    }
+  ]
+}

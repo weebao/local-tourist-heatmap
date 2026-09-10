@@ -1,0 +1,134 @@
+{
+  "pile": "105.8500,21.0333",
+  "verdict": "dumping_ground",
+  "verdict_reason": "The 18 sampled frames show mutually exclusive locations spread over >6 km of Hanoi, and not one of them shows anything on or near Luong Van Can. Hard-evidence examples: a stone gate whose red plaque reads 文廟門 'Van Mieu Mon' (Temple of Literature main gate, ~2.7 km SW of the pin); a granite plinth inscribed 'V.I. LE-NIN' (Lenin statue, Dien Bien Phu st, ~2.5 km SW); the Red River road/rail bridge with its surviving French cantilever trusses among replacement girder spans (Long Bien Bridge, ~1.5 km NE, shot from an elevated vantage across the river); an open-air thatched stilt house on groomed red earth (ethnographic open-air museum, west Hanoi); a glass case with a bilingual museum label 'RONG tren co vat / Dragon on antiquities - Dat nung, trieu Le Trung Hung, the ky 17-18, Hau Lau, Ha Noi'; an indoor water-puppet pool stage; a Buddhist pagoda side altar labelled 'BAN DUC ONG'; an alley viewed from above with a signboard reading '19 NHA CHUNG'; a ceramic-painting workshop; a motion-panned motorbike on an open highway; and six frames of one dark brick-walled restaurant/bar interior. These cannot be one street corner. The structure of the pile confirms it: every one of the 16-20 photographers' whole Hanoi set lands on this single identical coordinate, which is the signature of a Flickr place-picker centroid, not a shutter position. Flickr accuracy=16 is self-reported per place, not measured, so it carries no weight against the pixels. Even the weaker reading, 'all somewhere in the Old Quarter', fails: Van Mieu, the Lenin statue and the Museum of Ethnology are all outside the Old Quarter entirely.",
+  "place_if_genuine": null,
+  "photos": [
+    {
+      "id": "10183653154",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.15,
+      "evidence": "Motion-panned side view of a heavily loaded motorbike rider (conical-ish bucket hat, plastic-wrapped bundles, Vietnamese-script rice sacks) on wide grey asphalt with a dashed white lane line and a pale green wall/hoarding behind. Vietnamese text on the sacks fixes the country; nothing in frame names a street, and no landmark, kerb or building detail is diagnostic of any part of Hanoi."
+    },
+    {
+      "id": "11944416733",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.2,
+      "evidence": "Seven children mugging at the camera in a very narrow concrete-floored alley (~1.5 m wide) lined with parked scooters, a rolling metal shutter gate and rendered walls. Zoomed the scooter plate: white square plate reading '29-U1 / 357x' - the 29 prefix is Hanoi city registration, which confirms Hanoi but nothing finer. No street plate, shop sign or landmark visible; alleys of this type run off dozens of Hanoi streets."
+    },
+    {
+      "id": "3408152977",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.2,
+      "evidence": "Flash-lit interior of an eatery: exposed red brick wall with wide grey mortar joints, low wooden bench, chopstick baskets, small white rice bowls, people sitting on the floor around a low table. Cropped and brightened the framed/painted object at the top edge and the wall behind - only a plain teal-painted band and a dark panel, no legible text. Same venue as 3408163721 / 3408174705 / 3408969138 / 3408975822 / 3408984694; nothing in any of the six frames names the place."
+    },
+    {
+      "id": "3408163721",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.15,
+      "evidence": "Tight flash shot of people hugging at a party, background falls to black. A folded document with Vietnamese/CJK-looking print is held between them but is too small and too blurred to read. No wall detail, no signage, no window - zero locational content beyond 'indoors at night'."
+    },
+    {
+      "id": "3408174705",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.2,
+      "evidence": "Same brick-walled eatery as 3408152977: identical thin red brick with wide grey joints, floor seating, low table crowded with Vietnamese beer cans, ceramic teacups, a plastic ice pitcher and blue-rimmed bowls. Wall is bare; no menu board, no street-facing opening, no text of any kind."
+    },
+    {
+      "id": "3408969138",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.2,
+      "evidence": "Same venue again, shot from above: red brick wall with a white surface-mounted double socket, wooden slat bench, plastic chopstick baskets and white bowls on a dark wood table. Purely interior; no signage or window to place it."
+    },
+    {
+      "id": "3408975822",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.2,
+      "evidence": "Bar/restaurant interior at night: dark red brick, a green-painted window frame, a metal balcony railing over a lower level, hanging lamps, other diners behind. Cropped and pushed the exposure on the small framed picture on the back wall - it is a decorative print, no readable caption. No street view, no shop sign."
+    },
+    {
+      "id": "3408984694",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.15,
+      "evidence": "Three people posing indoors under a wall-mounted TV and a spotlight, brick pier behind. Same venue as the other five 3408xxxxxx frames. Nothing legible, no exterior."
+    },
+    {
+      "id": "4350770255",
+      "place": "Pho Nha Chung, Hoan Kiem, Hanoi",
+      "specificity": "street",
+      "confidence": 0.55,
+      "evidence": "Telephoto looking down from an upper floor into a narrow lane choked with overhead cable bundles, parked scooters, and a man in a pith helmet pushing a bicycle. Cropped and upscaled the white signboard on the left building: large red '19' over blue capitals that read 'NHA CHUNG' (bisected by a cable, so read at ~60%); a second sign above reads '...DO DIEN / SUA GA' (electrical/gas repair) and a red board ends in '...ERS'. Pho Nha Chung is a real short street beside St Joseph's Cathedral in Hoan Kiem, and '19 Nha Chung' also exists as a numbered alley entrance - which matches the narrow lane being photographed. Residual doubt is only about my reading of the second word (NHA CHUNG vs another two-syllable street), not about it being an address plate."
+    },
+    {
+      "id": "4372413538",
+      "place": "Temple of Literature (Van Mieu - Quoc Tu Giam), Quoc Tu Giam, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.9,
+      "evidence": "Two-storey stone tam-quan gate under scaffolding. Cropped the red plaque on the upper tier at 6x: three incised characters, read right-to-left, 門 廟 文 = 文廟門, 'Van Mieu Mon'. A large bronze bell hangs in the central upper arch, flanked by two inscribed obelisk pillars with dragon/phoenix finials - which matches the documented Van Mieu Mon in Hanoi (2 storeys, 3 entrances, 8 roof ridges, 文廟門 on the upper tier, a bronze bell hung there). This is the main gate of Hanoi's Temple of Literature."
+    },
+    {
+      "id": "4372419156",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.2,
+      "evidence": "A bird-shaped topiary on an earth mound, in front of a white/grey concrete balustrade whose panels are pierced with circular quatrefoil medallions, backed by an old thin-red-brick wall with wide grey joints. A magpie sits on the balustrade cap. Consistent with an old walled temple/park compound in Hanoi (the Van Mieu perimeter looks like this), but I zoomed the balustrade and wall and there is no inscription, plaque or building profile to pin it - a dozen Hanoi temples and colonial-era park walls share this vocabulary, so I will not name one."
+    },
+    {
+      "id": "5058523592",
+      "place": "Lenin Statue, Dien Bien Phu Street, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.8,
+      "evidence": "Bronze standing figure in a long coat, hand in pocket, on a tall tapered granite plinth in a small park with royal palms and a clipped hedge; cropped the plinth inscription at 8x and it reads 'V.I. LE-NIN'. Hanoi's Lenin statue stands in the Lenin flower garden (Vuon hoa Le-nin) on Dien Bien Phu street, facing the Flag Tower / Military History Museum, and the tall granite plinth and palm setting match it. Small residual chance of another Vietnamese Lenin monument, but this pedestal form is Hanoi's."
+    },
+    {
+      "id": "6093374945",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.15,
+      "evidence": "Over-the-shoulder shot of a woman hand-painting a green outline motif onto an unglazed white bowl with a fine brush, plastic bag and bucket beside her, plain rendered wall. Almost certainly a pottery workshop, and the obvious Hanoi candidate is Bat Trang ceramic village - but there is no sign, no kiln, no street and no text anywhere in frame, so naming Bat Trang would be a guess from tourist habit rather than from the pixels."
+    },
+    {
+      "id": "6874154180",
+      "place": "Vietnam Museum of Ethnology, Nguyen Van Huyen, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.4,
+      "evidence": "Large traditional stilt house (nha san) with a thick palm-thatch hip roof, raised on many short round timber posts, bamboo-panel walls, an external wooden ladder-stair, and interpretive benches/tables visible in the undercroft. It stands on compacted red-orange earth with a laid concrete path curving past it, a mown lawn edge and a woven bamboo fence behind - i.e. a maintained open-air display rather than a lived-in village house. Within Hanoi that points to the Vietnam Museum of Ethnology's outdoor architecture garden (which holds full-size Tay/Thai stilt houses). Held at 0.4 because no label or museum building is in frame and the same house type occurs in Hoa Binh/Son La villages."
+    },
+    {
+      "id": "6874231338",
+      "place": "Vietnam National Museum of History, 1 Trang Tien, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.55,
+      "evidence": "Spot-lit terracotta architectural dragon-head tile in a display case against a grey textured panel. Cropped and contrast-stretched the bilingual label at 7x: heading 'RONG tren co vat / Dragon on antiquities', object line 'Dat nung, trieu Le Trung Hung, the ky 17-18, Hau Lau, Ha Noi / Terracotta, Restored Le dynasty, 17th-18th century, Hau Lau, Ha Noi'. Hau Lau is the find spot (inside the Thang Long Imperial Citadel), not the display site; the exhibition title 'Rong tren co vat' matches the dragon-themed thematic exhibition mounted in early 2012 by the National Museum of History in Hanoi (which showed ~60 dragon-decorated objects including terracotta architectural pieces). So: a Hanoi museum case, most likely the National Museum of History; if the exhibition travelled, the alternative is the Thang Long Citadel exhibition hall at 19C Hoang Dieu."
+    },
+    {
+      "id": "6885619544",
+      "place": "Long Bien Bridge, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.75,
+      "evidence": "Hazy long-lens view across a wide brown river to a low bridge on many concrete piers. Cropped and stretched the deck at 4x: most spans are plain flat plate girders, but two adjacent spans carry a raised humped lattice cantilever truss with diagonal bracing. That mixed profile - surviving French humped trusses interleaved with flat post-war replacement girders - is the diagnostic silhouette of Long Bien Bridge over the Red River; an intact bridge would repeat one span type. Vantage is elevated, from across/along the river."
+    },
+    {
+      "id": "7020317637",
+      "place": "UNIDENTIFIED",
+      "specificity": "city",
+      "confidence": 0.25,
+      "evidence": "Side altar with three seated polychrome/gilt statues (central one red-faced with a winged headdress), brass candlesticks, a censer, oranges, chrysanthemums and a magenta foil offering cone; a gilt-framed vertical parallel-sentence board in Chinese characters at right. Cropped the small red-on-cream plate on the altar front at 6x: 'BAN DUC ONG'. That identifies the altar type (the Duc Ong shrine found in Vietnamese Buddhist pagodas) and so tells me this is a chua, but no pagoda name, gate, courtyard or exterior appears, and Hanoi has dozens of such altars."
+    },
+    {
+      "id": "7031765163",
+      "place": "Thang Long Water Puppet Theatre, 57B Dinh Tien Hoang, Hanoi",
+      "specificity": "landmark",
+      "confidence": 0.5,
+      "evidence": "Indoor water-puppet stage: a green-lit pool of standing water in front of a masonry set dressed as a temple facade - carved grey pillars, a red-and-gold valance of three panels each with a gold dragon, a dark bamboo/split-cane screen across the back to hide the puppeteers, a balustrade and round lattice window above, plus a burning fire prop and lacquered puppets in the water. The bamboo screen across the rear of the water stage matches the documented Thang Long stage arrangement, and Thang Long is Hanoi's principal indoor water-puppet house. Held at 0.5 because Hanoi has other water-puppet stages (Vietnam Puppetry Theatre on Truong Chinh, and the museum thuy dinh) and no signage or auditorium is visible."
+    }
+  ]
+}

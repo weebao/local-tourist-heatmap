@@ -1,0 +1,92 @@
+{
+ "pile": "105.8360,21.0292",
+ "verdict": "genuine_place",
+ "verdict_reason": "12 of the 20 photos are on the sheet, from up to 10 photographers, and 11 of the 12 are inside the Temple of Literature with several independent, decisive reads: the Khue Van Cac pavilion (2803350580), the triple-arch Van Mieu main gate (2803348206), the Thien Quang well with its white balustrade (2803349078, 2803348684), the row of doctors' stelae on stone turtles (4142276343), the Dai Bai hall with its three bonsai (2803349864) and the bronze crane-on-turtle inside it (5608070162). Different photographers corroborate the same structures, so this is a real place, not a habit pin. Exactly one frame is mis-pinned: 2802501129 is the gate of Saint Paul General Hospital ('BENH VIEN DA KHOA XANH PON' read off the banner), about a kilometre away, and it comes from the same roll as this pile's stele-house colonnade - i.e. a little place-picker spillover on an otherwise genuine pin.",
+ "place_if_genuine": "Temple of Literature",
+ "photos": [
+  {
+   "id": "2802501129",
+   "place": "Benh vien Da khoa Xanh Pon, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "Busy street with motorbikes in front of a yellow-ochre colonial building and a modern cream block, with an arched gateway between them. The banner over the arch, enlarged and sharpened, reads 'SO Y TE HA NOI - BENH VIEN DA KHOA XANH PON' (Hanoi Health Department - Saint Paul General Hospital), with patients and a bicycle in the gate. That hospital is on Chu Van An in Ba Dinh, roughly a kilometre from this pin, so this photo is mis-pinned."
+  },
+  {
+   "id": "2802503507",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Long open colonnade of round timber columns on stone bases under a low tiled roof, terracotta-tiled floor with a drainage channel down the middle, whitewashed end wall and a bright courtyard beyond - the stele-house colonnade of the Temple of Literature, the same hall photographed with its turtle-mounted stelae in the neighbouring pile (209981101, 209980620)."
+  },
+  {
+   "id": "2803348206",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "The main gate: a grey rendered triple-arch gatehouse with a tiled roof over the central bay, dragon and phoenix ridge sculpture, moulded rectangular inscription panels and flanking pillars topped with small stone figures, framed by big trees. This is the Van Mieu gate on pho Quoc Tu Giam - the entrance front of the Temple of Literature."
+  },
+  {
+   "id": "2803348684",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Rectangular masonry-walled pond covered in water-lily pads, with a white balustraded parapet, brick paving and an avenue of mature trees leading to a gate in the distance - the Thien Quang well courtyard of the Temple of Literature (same pond, balustrade and paving as 2803349078 in this pile)."
+  },
+  {
+   "id": "2803349078",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Square walled pond with a continuous white stone balustrade with pierced panels, wide terracotta-tile paving in the foreground, tall trees, and a red-lacquered gate building with a tiled roof and a festival flag centred on the far side - the Thien Quang well looking towards the Dai Thanh gate at the Temple of Literature."
+  },
+  {
+   "id": "2803349520",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "A concentric-square festival banner (red centre, rainbow borders) on a mast beside the white balustrade of the same walled pond, with clipped hedges, brick paving and a tiled roof behind - the Thien Quang well courtyard again, same balustrade and flagpole as 2803349078."
+  },
+  {
+   "id": "2803349864",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Frontal view of the long hall with its sweeping orange-terracotta roof, openwork dragon ridge, red columns and red doors, with three stone-potted bonsai standing on the wide paved court in front of it - the Dai Bai hall of the Temple of Literature, matched by two other photographers at this coordinate group (8599847643, 4169221267)."
+  },
+  {
+   "id": "2803350580",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.9,
+   "evidence": "The two-storey pavilion with a red-lacquered upper storey pierced by round sunburst windows, double tiled roof, and a rendered ground storey with an arched passage, standing on a brick platform at the end of a brick path between clipped hedges - Khue Van Cac, the emblematic pavilion of the Temple of Literature."
+  },
+  {
+   "id": "4142276343",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "A man reading the face of one of a long row of tall grey stone stelae, each standing on a carved stone turtle, under the tiled roof and round timber columns of an open hall on a raised paved terrace - the doctors' stelae of the Temple of Literature (the same hall as the bilingual 'do not sit on the doctor's stelea' notice at the neighbouring pin)."
+  },
+  {
+   "id": "5608070162",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "A visitor standing beside a tall bronze crane perched on a turtle, inside a red-lacquered hall: gilded chu Han inscriptions on the red columns, carved gilt panels and horizontal boards overhead, a red lantern, and souvenir stalls with postcard racks in the courtyard behind. The bronze crane-on-turtle pair flanking the altar of the Dai Bai hall at the Temple of Literature; the same crane appears in close-up from another photographer here (4172513876)."
+  },
+  {
+   "id": "5699177320",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.4,
+   "evidence": "Terracotta ridge dragon in relief - long body, mane, clawed legs - running along a tiled roof ridge against white sky, with a small ridge finial at the right. Nearly identical to the ridge dragon shot by another photographer at this coordinate group (2431252336) and to the openwork ridge of the Dai Bai hall, but the frame shows only the ridge, so the attribution is soft."
+  },
+  {
+   "id": "7684757704",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.65,
+   "evidence": "Courtyard scene: a raised planting bed with a limestone rockery and a frangipani bonsai in the foreground, brick-tile paving, and a long hall with a deep orange-terracotta roof and red columns behind, with visitors along its front. The hall, paving and rockery-and-bonsai plantings match the Dai Bai courtyard of the Temple of Literature verified elsewhere in this coordinate group."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+# Working data, not for redistribution.
+#
+# data/yfcc/          YFCC100M-derived metadata (~900 MB)
+# data/reloc/img/     1,819 Flickr thumbnails fetched for visual geolocation.
+#                     Individual photographs are (C) their photographers under
+#                     their own Creative Commons licences; this pipeline does
+#                     not record which licence applies to which photo, so these
+#                     files must not be redistributed from here.
+# data/hanoi_osm.*    Overpass extract, (C) OpenStreetMap contributors, ODbL
+data/yfcc/
+data/reloc/img/
+data/hanoi_osm.json.gz
+out/work/
+.venv/
+__pycache__/
+*.pyc
+data/reloc/piles/
+data/reloc/sheets/

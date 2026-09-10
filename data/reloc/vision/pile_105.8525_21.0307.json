@@ -1,0 +1,120 @@
+{
+ "pile": "105.8525,21.0307",
+ "verdict": "genuine_place",
+ "verdict_reason": "16 of the 18 photos are on the sheet, from 9 different photographers, and they all land on the same small complex - the Ngoc Son temple islet and The Huc Bridge in Hoan Kiem Lake. Independent proofs from different photographers: the moon-gate (9848622063, matching the legible 'Dac Nguyet Lau' gate in the adjacent pile), the flag-lined red stilt bridge (8124547611), the red-columned main hall (11526244766), the four-columned lakeside pavilion (11526198474 / 11526281533), the votive furnace inscribed 'Dinh anh lac ho trung' (3899732217), and Hoan Kiem Lake with the Turtle Tower visible on its islet (3504401209). Nine unrelated photographers converging on the same buildings rules out a habit pin, and only one frame (4583542311, incense sticks on black) carries no evidence at all. This pin and 105.8526,21.0308 are the same real place.",
+ "place_if_genuine": "Ngoc Son Temple",
+ "photos": [
+  {
+   "id": "11526194394",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Looking up inside a temple: red-lacquered beams and purlins, carved and painted panels, a crystal chandelier, a red-and-gold pillar-mounted drum or scroll case, and a framed notice on the whitewashed wall. Interior of the same red-columned hall this photographer shot from outside; no plaque legible in this frame."
+  },
+  {
+   "id": "11526198474",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Open square pavilion with four grey stone columns, a tiled hip roof with upturned corners, a red lantern hung in the centre, brick-tile floor raised on a plinth, bonsai pots around it and grey lake water immediately behind - the lakeside pavilion (Tran Ba dinh) at the end of the Ngoc Son complex, shot again as 11526281533 in this same pile."
+  },
+  {
+   "id": "11526244766",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "The same temple hall as 12930875014 in the neighbouring pile, by a different photographer: red columns and doorframes, double terracotta roof with openwork ridge panel, red lanterns, bronze dragon-handled urn in the forecourt, potted plants - the Ngoc Son main hall."
+  },
+  {
+   "id": "11526266173",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Side altar: gilt dragon carvings over a red table, a bronze urn, large blue-and-white porcelain jars, turquoise ceramic lion-dogs and a row of chu Han cartouches along the top rail. Vietnamese temple altar, no readable place name."
+  },
+  {
+   "id": "11526281533",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Second view of the same four-columned stone pavilion with the red lantern, tiled roof and bonsai, with the lake and its far treeline visible through the openings."
+  },
+  {
+   "id": "11526294523",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Child posed in a paved temple court between grey stone columns, with red-columned halls, red banners, hanging lanterns and an incense urn behind - the Ngoc Son courtyard, same red colonnade and paving as the identified hall frames."
+  },
+  {
+   "id": "11922755964",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Lakeside park: a paved diamond-patterned walkway with clipped hedges and low shrubs, huge mature trees, dozens of people standing about, and grey lake water closing the view. A Hanoi lake promenade consistent with Hoan Kiem, but no plate or building fixes it."
+  },
+  {
+   "id": "3504401209",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "Wide view across grey-green lake water; when the far shore is enlarged a small tree-covered islet carries a squat multi-tiered tower - the Turtle Tower (Thap Rua) of Hoan Kiem Lake - with the lakeside treeline and the pale mid-rises of central Hanoi behind it."
+  },
+  {
+   "id": "3505198004",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Dark red shrine interior: a gilded, crowned seated statue in red robes behind glass, flanked by red-lacquered carved panels, flowering branches and offering vessels. Temple altar with no legible inscription."
+  },
+  {
+   "id": "3899732217",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.65,
+   "evidence": "A soot-blackened stone votive furnace whose panels are inscribed in chu Han: the front reads 'Dinh anh lac ho trung' (亭影落湖中, 'the pavilion's shadow falls into the lake'), the top cartouche 'Thu ... phuong' and the right face 'Van quang xung...' , with a second stone reading 'Binh ho...' at the left. The 'dinh anh lac ho trung' couplet belongs to the Ngoc Son / Hoan Kiem lake temple group, and the same couplet appears on the Dac Nguyet Lau gate photographed in the neighbouring pile."
+  },
+  {
+   "id": "4583542311",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.2,
+   "evidence": "Studio-like close-up of five lit incense sticks with smoke against a pure black background. No ground, sky, structure, text or vegetation - nothing locational at all."
+  },
+  {
+   "id": "5736640874",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Three people sitting on the exposed root plate of a huge banyan at a water's edge, dappled shade, grey water beyond and a stone kerb at the bottom of the frame. The same aerial-root banyan on a lake shore that other photographers in this pile group shot; no sign or plate."
+  },
+  {
+   "id": "8124538993",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Red-railed bridge deck lined with tall festival flags (yellow, blue, red, and the red-yellow-green triband), crowded with people, big trees over the far end - the The Huc Bridge dressed for a festival, matching the same photographer's 8124547611 and 8124565798."
+  },
+  {
+   "id": "8124547611",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "Along the bridge: red timber railings on both sides, plank deck, ranks of coloured festival flags, people walking towards a treed islet - The Huc Bridge."
+  },
+  {
+   "id": "8124565798",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Tourists standing at the red railing on the plank deck of the same flag-lined red bridge, green flag overhead, dense trees behind."
+  },
+  {
+   "id": "9848622063",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "High-contrast black-and-white of a stone gate with a circular moon opening, a dragon-ridged upturned roof, a rectangular plaque over the arch and framed inscription panels down the piers - the same Dac Nguyet Lau gate of Ngoc Son temple that reads plainly in 3900494856."
+  }
+ ]
+}

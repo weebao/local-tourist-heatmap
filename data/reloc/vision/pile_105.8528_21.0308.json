@@ -1,0 +1,57 @@
+{
+ "pile": "105.8528,21.0308",
+ "verdict": "genuine_place",
+ "verdict_reason": "Five of the seven tiles present are unmistakably the Ngoc Son temple entrance complex on Hoan Kiem Lake: the red arched The Huc bridge (day, night with its flag row and red reflections, and a Tet peach-branch carrier crossing it), the Dac Nguyet Lau gate with its round moon window and blue dragon/tiger panels at the bridge's far end, and the Dai Nghien gate, which I identified by reading its stone couplet panels - left '...天...筆...石...' and right '...島墨痕湖水...', i.e. 'Kinh thien but the thach phong cao / Bat dao mac ngan ho thuy man', the documented couplet on Ngoc Son's inkstone gate. A sixth tile is an unremarkable lakeside promenade in black and white and the seventh is a portrait with a bokeh background; both are from the same visit pattern but carry no landmark of their own. Four photographers among the seven, and the two weak tiles are portraits/atmosphere rather than unrelated places, so this reads as a genuine place with a little noise.",
+ "place_if_genuine": "Ngoc Son Temple",
+ "photos": [
+  {
+   "id": "2951248255",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "Cross-processed shot up a stone-paved walkway with moulded masonry parapets to a grey gate with a round-arched passage, a hanging gilt lantern, and a large wavy inscribed stone slab above the arch (the peach-shaped inkstone). The white couplet panels flanking the arch are readable when cropped and upscaled: left column ends 天 ... 筆 ... 石, right column ends 島 墨 痕 湖 水 - the Dai Nghien couplet 'Bat dao mac ngan ho thuy man / Kinh thien but the thach phong cao', which Vietnamese sources place on the Dai Nghien inkstone gate at Ngoc Son temple, Hoan Kiem Lake."
+  },
+  {
+   "id": "4359940508",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.96,
+   "evidence": "The Dac Nguyet Lau gate photographed from the deck of a red-lacquered timber bridge: pale blue-grey gate with a large circular moon window flanked by gilt dragons, blue-and-white painted panels with Chinese couplets, ceramic-inlaid tiger and dragon murals on the flanking piers, a small tiled roof with an upturned ridge, and the red balusters and plank deck of The Huc bridge in the foreground. Definitive Ngoc Son temple entrance."
+  },
+  {
+   "id": "2952100146",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.93,
+   "evidence": "Looking along a narrow red-painted timber bridge with red balusters and posts, pale plank deck, red and yellow banner flags on staffs along the rails, green lake water either side and dense lakeside trees ahead with visitors walking toward the far gate. Matches The Huc bridge on Hoan Kiem Lake."
+  },
+  {
+   "id": "4353795830",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.93,
+   "evidence": "A woman in a bike helmet carrying a large blossoming peach branch (Tet) walking across a red timber bridge with turned red balusters and lotus-bud finials; at left the edge of a grey gate with a blue ceramic dragon panel and Chinese-character couplet boards - the Dac Nguyet Lau gate at the head of The Huc bridge."
+  },
+  {
+   "id": "8043891499",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.95,
+   "evidence": "Night long exposure across still water of a low red-lit arched timber bridge carrying a row of small banner flags along its crest, with green-floodlit trees at both ends and long red and green reflections in the lake. This is the standard night appearance of The Huc bridge on Hoan Kiem Lake."
+  },
+  {
+   "id": "2951249865",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.35,
+   "evidence": "Black-and-white frame of a woman in a conical palm-leaf hat sitting on a low stump reading, on a concrete lakeside path under dense pandanus/dracaena clumps and overhanging branches, with bright open water behind and a thin metal pole. The gnarled mass at right is an uprooted stump, not a statue. Nothing here identifies which lake; I read it as Hoan Kiem only because the same photographer's other frames in this pile are the Ngoc Son entrance a few dozen metres away, which is weak evidence."
+  },
+  {
+   "id": "7573198424",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.1,
+   "evidence": "Close outdoor portrait of a young woman in a pink vest with a Pentax camera strap; the background is fully defocused - pale sky, a green tree mass and a lighter horizontal band that could be water or pavement. No sign, building or landmark, so no location can be read from the pixels."
+  }
+ ]
+}

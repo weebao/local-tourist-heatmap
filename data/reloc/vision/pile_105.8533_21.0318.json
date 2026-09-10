@@ -1,0 +1,13 @@
+{
+  "pile": "105.8533,21.0318",
+  "verdict": "dumping_ground",
+  "verdict_reason": "Only 5 of this pile's photos existed on disk (2 on the contact sheet), from 3 different photographers, and they are not one place: two frames of the Thang Long Water Puppet Theatre neon facade (57B Dinh Tien Hoang), one of the Cam Tu war memorial beside Den Ba Kieu at the Dinh Tien Hoang / Hang Dau junction ~250 m away, one indoor wall of souvenir masks, and one street portrait of a woman in a conical hat. Different photographers, different subjects, at least two distinct locations, all pinned to one identical coordinate at accuracy 14/16 - the signature of a place-picker centroid on Hoan Kiem Lake rather than a real shooting spot.",
+  "place_if_genuine": null,
+  "photos": [
+    {"id":"3504909369","place":"Thang Long Water Puppet Theatre, Hanoi","specificity":"landmark","confidence":0.95,"evidence":"Night shot of the theatre's illuminated tower: orange/red neon 'Thang Long' over blue neon 'WATER PUPPET THEATRE', a red-lit upper band of Vietnamese text, and green rope-light outlining the parapet below."},
+    {"id":"3505799846","place":"Thang Long Water Puppet Theatre, Hanoi","specificity":"landmark","confidence":0.95,"evidence":"Same illuminated 'Thang Long WATER PUPPET THEATRE' neon tower from a fractionally wider angle, with the adjacent lit building and a street lamp at right."},
+    {"id":"6545469487","place":"Cam Tu Monument, Dinh Tien Hoang, Hoan Kiem, Hanoi","specificity":"landmark","confidence":0.85,"evidence":"White stone group statue of three fighters on a plinth carved 'CAM TU / CHO TO QUOC / QUYET SINH', next to a pagoda-roofed display board headed '...THANG LONG - HA NOI' showing a panel 'Thoi ky Phap thuoc / Khach san Metropole Ha Noi'; an old rendered temple wall behind and lakeside globe street lamps at right. This is the Cam Tu memorial by Den Ba Kieu on Dinh Tien Hoang at the NE corner of Hoan Kiem Lake."},
+    {"id":"8029785474","place":"UNIDENTIFIED","specificity":"city","confidence":0.0,"evidence":"Shop wall of carved and painted Asian theatre/souvenir masks on black rails against a red backboard, with small puppet figurines on a lower shelf. No signage, address or window view."},
+    {"id":"8029785880","place":"UNIDENTIFIED","specificity":"city","confidence":0.0,"evidence":"Close portrait of a woman in a conical hat and floral shirt on an asphalt street, bicycle handlebar at right, blue plastic stools and tables blurred behind. No text or landmark in frame."}
+  ]
+}

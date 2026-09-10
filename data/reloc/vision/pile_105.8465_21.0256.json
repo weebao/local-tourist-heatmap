@@ -1,0 +1,218 @@
+{
+ "pile": "105.8465,21.0256",
+ "verdict": "genuine_place",
+ "verdict_reason": "Explicit, legible text ties this pile to one site: an exhibit label reading 'GACH - Thuc dan Phap dung de xay dung nha tu Hoa Lo / Bricks used by French colonialists to build Hoa Lo prison, 1896', an introduction panel signed 'BAN QUAN LY DI TICH NHA TU HOA LO' about prisoners held 'in Hoa Lo prison from 1899 to 1954', a picture caption 'Hoa Lo political prisoners holding a meeting on the Labor Day (1 May 1932)', and the gate arch lettered 'MAISON CENTRALE' with the Hanoi Towers high-rise behind it. Everything else in the sheet is the same visit: cell blocks with black tarred dados, barred gates, the ankle-stock dioramas, the gilt memorial room, perimeter walls with spikes and razor wire, and framed archive exhibits. The two 3505* frames from a different uploader are the only ones without direct textual proof, and even they show a walled heritage courtyard with relief panels and a chained-off stone structure consistent with the site. The pin at 105.8465,21.0256 sits on Hoa Lo itself, so it is a real place, not a snapped centroid.",
+ "place_if_genuine": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+ "photos": [
+  {
+   "id": "3505316260",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Narrow paved courtyard between a tall grey wall carrying framed stone/bronze relief panels of figures in conical hats and soldiers, and a low tile-roofed range with a row of dark doorways and a wooden bench. A leafless banyan/almond tree with red votive threads, and a beige stone-clad high-rise looming over the wall. Chained off at centre is a rough concreted stone structure with a dark arched opening and an interpretation plaque - consistent with the displayed escape sewer at Hoa Lo, and the high-rise with the Hanoi Towers block built on the demolished part of the prison. Read from site character, not from a legible sign."
+  },
+  {
+   "id": "3505320102",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Near-duplicate of 3505316260 - same courtyard, same relief-panelled wall, same chained rough stone structure and bare tree."
+  },
+  {
+   "id": "3900411312",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.95,
+   "evidence": "Museum vitrine with three worn bricks; zoomed and read the label: 'GACH - Thuc dan Phap dung de xay dung nha tu Hoa Lo' / 'Bricks - used by French colonialists to build Hoa Lo prison, 1896'."
+  },
+  {
+   "id": "5702293777",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Interior corner painted deep yellow with two red fire extinguishers on a tiled floor bordered by a Greek-key band, and a Vietnamese fire-safety cartoon poster headed 'CHAY' plus a printed notice. Housekeeping corner of the museum interior seen throughout this set; no place text."
+  },
+  {
+   "id": "5702294935",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Wall-mounted sepia panoramic exhibit photograph of a long row of prisoners with their legs in a communal wooden stock, with a French caption line above mentioning '...dans la prison'. A framed exhibit inside the prison museum."
+  },
+  {
+   "id": "5702298767",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Macro of a pair of old bakelite/porcelain electrical toggle switches on a surface-wired board against a pale wall. Original prison fittings shown in the museum; no text."
+  },
+  {
+   "id": "5702300219",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "Bare exercise yard: rendered walls painted grey with a black dado, a small barred hatch high in one wall, a green-shuttered opening in the block behind, concrete paving. Matches the yard fabric in the frames where the 'MAISON CENTRALE' gate and Hoa Lo labels are legible."
+  },
+  {
+   "id": "5702301301",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "Dead-end gap between a rendered wall and a rubble-stone perimeter wall whose top carries iron spikes/hooks and razor-wire brackets against the sky; a steel-braced stair or chute at the corner. Prison perimeter construction of the same site."
+  },
+  {
+   "id": "5702302371",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Cast-stone bench in a yard, wall painted white above a black dado with a small square barred hatch at ground level, concrete slab paving. Same wall treatment and hatches as the identified prison yards."
+  },
+  {
+   "id": "5702303469",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Long interior corridor with deep-yellow walls, dark timber door frames and a lit doorway at the far end where a single visitor with a shoulder bag stands. Museum circulation of the same yellow-and-timber interior."
+  },
+  {
+   "id": "5702304447",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Photograph of a museum display board: a large colour print of a woman guide gesturing for two male visitors beside archive photographs, with a Vietnamese/English caption strip beneath. An exhibit panel inside the museum."
+  },
+  {
+   "id": "5702305491",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Steep upward view of a yellow render wall topped by an iron grille and barbed-wire brackets with ivy growing through, a street lamp on a bracket arm and overhead wires against blue sky. Fortified wall top of the same walled compound, photographed from below."
+  },
+  {
+   "id": "5702306639",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Heavy black-painted iron barred gate/window with a massive bolt and lock plate, seen against a yellow-lit interior. Cell ironmongery matching the rest of the prison set."
+  },
+  {
+   "id": "5702308759",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.65,
+   "evidence": "Empty cell: bare grey walls above a black tarred dado, a single bare pendant bulb, and a low black door/hatch. Cell interior of the same prison."
+  },
+  {
+   "id": "5702317409",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Framed exhibit photograph of a file of men in identical light shirts carrying bundles with an aircraft tail behind, with a bilingual caption strip about American pilots being handed over in 1973 at Gia Lam airfield, Hanoi. The photograph is a museum exhibit - shutter pressed inside the prison museum, not at Gia Lam."
+  },
+  {
+   "id": "5702319151",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "Framed sepia exhibit print of a bombed, collapsed masonry building with smoke rising, captioned in Vietnamese beneath. Another archive exhibit on the museum wall."
+  },
+  {
+   "id": "5702324827",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Memorial room: pink-and-red walls with five tall gilt name boards lit from below, a plinth altar with a bronze urn and flower pots, and a framed gold medal-and-red-ribbon emblem above. The commemorative room of names inside the prison museum."
+  },
+  {
+   "id": "5702327559",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.95,
+   "evidence": "Zoomed and read the exhibition introduction panel: signed 'BAN QUAN LY DI TICH NHA TU HOA LO' with the English text '1624 Vietnamese revolutionary patriots, who were arrested, kept and ill-treated by French colonists in Hoa Lo prison ... from 1899 to 1954'."
+  },
+  {
+   "id": "5702331115",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.95,
+   "evidence": "Framed painting of prisoners at a clandestine meeting; zoomed and read its caption: '...HINH TRI HOA LO TO CHUC MIT TINH NHAN NGAY QUOC TE LAO DONG (01/5/1932)' / 'Hoa Lo political prisoners holding a meeting on the Labor Day (1 May 1932)'."
+  },
+  {
+   "id": "5702332397",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Exterior/threshold view along a yellow colonial wall with green louvred shutters and an air-conditioner, a red corrugated canopy, black steel railing and a black-and-white chequered floor. Same yellow-and-green-shutter fabric as the lettered 'MAISON CENTRALE' facade."
+  },
+  {
+   "id": "5702334501",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "Low-angle exterior of the ochre colonial block: green louvred shutters and barred windows, moulded cornice, green metal awning, seen over the compound wall against blue sky. Same building as the gate frame."
+  },
+  {
+   "id": "5702860264",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "Slot between a yellow rendered wall with cornice and a rubble-stone wall topped with spikes and creeper - the same perimeter gap as 5702301301 from the other end."
+  },
+  {
+   "id": "5702861280",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.98,
+   "evidence": "The prison gate itself: ochre facade with green louvred shutters over a segmental arch lettered 'MAISON CENTRALE', red flag on a staff, rubble-stone plinth, and the Hanoi Towers high-rise directly behind. This is the Hoa Lo Prison Museum entrance."
+  },
+  {
+   "id": "5702865370",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "Diorama of grey-white life-size figures of prisoners lying on a raised communal plank bed with their ankles locked in a long wooden stock bar. The signature Hoa Lo communal-cell reconstruction."
+  },
+  {
+   "id": "5702866484",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Dark corridor with black tarred walls, a small notice card, and a lit doorway at the end through which visitors are visible in a bright yard. Same interior as the rest of the prison set."
+  },
+  {
+   "id": "5702876882",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Close-up of an old fuse/knife switch box and conduit clamps mounted on a black tarred wall. Original fittings inside the same prison."
+  },
+  {
+   "id": "5702879020",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.65,
+   "evidence": "Very dark cell/cachot interior: black walls, a partition, and a small lamp; near-total darkness. Matches the blacked-out solitary cells of this prison."
+  },
+  {
+   "id": "5702880410",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "Second diorama group: grey figures of prisoners seated and lying on two raised plank beds, one tending another under a sheet. Reconstruction inside the prison museum."
+  },
+  {
+   "id": "5702881486",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Framed archive exhibit photograph of a large seated-and-standing group of uniformed men in front of a tile-roofed building, with a bilingual caption about French wardens/officers, 1920s-30s. Museum wall exhibit."
+  },
+  {
+   "id": "5702882574",
+   "place": "Hoa Lo Prison (Maison Centrale), 1 Hoa Lo, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Dark passage with black tarred walls, a heavy open door and a barred grille to the right admitting daylight from a yard. Same cell-block interior."
+  }
+ ]
+}

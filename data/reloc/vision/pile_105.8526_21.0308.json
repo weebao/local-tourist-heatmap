@@ -1,0 +1,148 @@
+{
+ "pile": "105.8526,21.0308",
+ "verdict": "genuine_place",
+ "verdict_reason": "20 of the 23 photos are on the sheet (5 photographers) and every single frame is inside or immediately beside one small complex: the Ngoc Son temple islet in Hoan Kiem Lake. Three reads are decisive on their own - the moon-gate inscribed 'Dac Nguyet Lau' with its dragon mosaic panels (3900494856), the red stilt-and-plank The Huc Bridge in full profile (4504145561), and the red-columned Ngoc Son main hall with its ridge bird and dragon-handled urn (12930875014, re-shot by a second photographer as 11526244766 in the neighbouring pile). The remaining frames are the same hall, the same incense urn, the same bridge railing, the same aerial-root banyan and the lake seen from the islet. Nothing in the pile points anywhere else, and the pin sits on the islet itself. Only 5 photographers, but they corroborate each other on the same buildings, so this is not one person's habit pin.",
+ "place_if_genuine": "Ngoc Son Temple",
+ "photos": [
+  {
+   "id": "12930481925",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Close-up of a weathered stone stele covered in chu Han/Nom donor names (Nguyen Thi..., Tran Thi..., Vu..., Do...) with a blown-out mineral scar across the middle; a carved lotus border at the bottom. The stele itself carries no title I can read, so the site rests on the fact that the same photographer's other frames in this pile are the Ngoc Son main hall, its incense burner and the Hoan Kiem shore from Jade Island - contextual, not pixel-proof."
+  },
+  {
+   "id": "12930574553",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Green lake water shot from behind a painted ceramic flower pot, with the rendered base of a white stone structure at the left edge and a skyline of narrow Hanoi shophouses and mid-rises across ~200 m of water; matches the view from Jade Island out over Hoan Kiem Lake."
+  },
+  {
+   "id": "12930875014",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Front elevation of a single-storey temple hall: red-lacquered columns and doorframes, double terracotta tile roof with openwork ridge panel, a green-and-gold bird figure and a flaming-pearl finial on the ridge, four red lanterns, a bronze dragon-handled incense urn in the middle of the paved forecourt and a vertical chu Han plaque ('nhan...') on the side wall. Same building appears in this pile's other photographer's frames and in the neighbouring pile - the main hall of Ngoc Son temple."
+  },
+  {
+   "id": "12930881484",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Bundles of burning incense sticks in a large bronze urn with cast Chinese characters, red temple column behind. Same urn/hall as the identified Ngoc Son main-hall frame from the same photographer, but nothing site-specific in this frame alone."
+  },
+  {
+   "id": "3818973251",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Three men asleep on a run of granite-and-terrazzo park benches whose backs carry yellow Prudential Life Insurance plates; behind them a curtain of banyan aerial roots, blue-and-white ceramic urns and brick paving. A lakeside park bench row - the same big aerial-root banyan appears in other photographers' frames here and in the adjacent pile - but no plate or sign fixes the exact shore."
+  },
+  {
+   "id": "3818975009",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Woman standing behind smoking incense sticks planted in a sand-filled urn on a paved temple forecourt. Same incense urn setting as the photographer's Ngoc Son frames; no independent locational content."
+  },
+  {
+   "id": "3818980189",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.4,
+   "evidence": "Red-lacquered temple door leaf with pierced openwork carving, seen edge-on down a whitewashed side passage. Temple joinery only - assigned by association with the rest of this photographer's roll, not by anything readable."
+  },
+  {
+   "id": "3818982399",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Interior altar heaped with red-and-pink flower arrangements, gilt vases, blue-and-white porcelain, a conical hat and a bronze urn under red light. A Vietnamese temple altar; no plaque legible."
+  },
+  {
+   "id": "3818987729",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Man leaning on the railing of a bright red bridge with a plank deck and X-braced balusters, green lake water and a wooded far shore behind - the Huc Bridge onto Jade Island at Hoan Kiem Lake, the same bridge photographed whole in this pile."
+  },
+  {
+   "id": "3819782604",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Same incense-urn forecourt as the photographer's other frames, woman standing behind smoking incense sticks. No readable site marker."
+  },
+  {
+   "id": "3819784554",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.4,
+   "evidence": "Gilt horizontal board (hoanh phi) with three large blue chu Han characters on a basket-weave gold ground and a red-and-gold carved frame, mounted under a red-painted rafter. Characters read (right to left) as something like 'tuong / te / sinh'; I could not resolve the full inscription, so this is a temple-interior detail placed by association."
+  },
+  {
+   "id": "3819790188",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Woman posed against the red X-braced railing of a bridge over green lake water with a wooded far shore - same railing and lake as the identified The Huc Bridge frames from this photographer."
+  },
+  {
+   "id": "3819792012",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Second pose on the same red X-braced bridge railing over the same green lake."
+  },
+  {
+   "id": "3819795948",
+   "place": "Hoan Kiem Lake",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Couple photographed with green lake water, a wooded shoreline and a low grey Hanoi skyline behind; same lake as the photographer's The Huc Bridge frames but the frame itself shows only water and trees."
+  },
+  {
+   "id": "3900494856",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.9,
+   "evidence": "The stone moon-gate of Ngoc Son temple read directly from its own inscriptions: the red panel over the roof says 'Dac Nguyet Lau' (得月樓), the blue tympanum flanks a round moon opening with two dragons and gilt chu Han, and the side panels carry the couplets 'Bat quan the/thanh...' and 'Dinh anh lac ho trung' with painted blue-and-white mosaic dragon panels below; tourists queue through the arch. This is the second gate on the causeway to Jade Island."
+  },
+  {
+   "id": "4504136521",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Visitors in front of a long red-columned temple hall with red doorframes, hanging red lanterns and potted shrubs on a paved court, incense haze at left - the Ngoc Son main hall seen obliquely (same red colonnade, lanterns and paving as the frontal shot in this pile)."
+  },
+  {
+   "id": "4504143603",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Two elderly men playing Chinese chess (xiangqi) on a brick-and-tile bench inside an open pavilion: a square stone pillar carries a vertical chu Han couplet, a red-lacquered wooden column stands at right, and the lake with palms is visible just beyond - the lakeside pavilion (Tran Ba dinh) at the Ngoc Son complex; the pillar text I could see ('anh / cong / phi / cuong'-ish) is not fully resolvable."
+  },
+  {
+   "id": "4504145561",
+   "place": "The Huc Bridge",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "The whole bridge in profile: a red-painted timber bridge on slender red stilts, low arched camber, crowded with pedestrians, crossing to a wooded islet - the unmistakable The Huc Bridge on Hoan Kiem Lake."
+  },
+  {
+   "id": "4504772146",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Gilded and red-robed altar statues with peacock-feather fans, glass-covered offerings and blue-and-white vases in a dark red shrine interior; a Vietnamese temple altar with no legible plaque."
+  },
+  {
+   "id": "4504774310",
+   "place": "Ngoc Son Temple",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Visitors under a huge banyan whose aerial roots hang in a dense curtain, with the upturned tiled eave and ridge ornament of a temple roof across the top of the frame and a white stone plinth on brick paving - the treed temple courtyard on Jade Island, but nothing readable."
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+  "pile": "105.8398,21.0327",
+  "verdict": "genuine_place",
+  "verdict_reason": "Only 2 of this pile's 27 photos were sampled (2 tiles, 2 different photographers), so this is a thin sample. Both tiles are read with high confidence and both sit on the same city block: one is the Vietnam Military History Museum courtyard photographed from an elevated brick terrace with a pierced concrete balustrade - i.e. from the Hanoi Flag Tower - and the other is the Hanoi Flag Tower itself, floodlit at night with the national flag flying. The Flag Tower stands inside the museum compound, roughly on this pin. Two independent photographers, two subjects 60 m apart, nothing off-topic: consistent with a genuine place, with the caveat that 25 of 27 photos were never seen.",
+  "place_if_genuine": "Hanoi Flag Tower",
+  "photos": [
+    {"id":"5828971948","place":"Vietnam Military History Museum","specificity":"landmark","confidence":0.93,"evidence":"Looking down from a brick-paved terrace over a pierced concrete balustrade onto a paved yard holding two Douglas A-1 Skyraiders - the near one lettered 'U.S. NAVY' with serial 92436 and a US star-and-bar, the far one 'U.S. AIR FORCE' - plus a tank, artillery pieces and, at the right rear, the museum's well known heap of crushed American aircraft wreckage. Behind are white two-storey barrack-like galleries with green trim and a Vietnamese flag over a doorway. Captured-aircraft yard, the wreckage pile and the elevated brick terrace of the Flag Tower together identify the Military History Museum on Dien Bien Phu."},
+    {"id":"8169215623","place":"Hanoi Flag Tower","specificity":"landmark","confidence":0.9,"evidence":"Night shot of a tapering, floodlit brick tower with three tiers of small fan-shaped and rectangular window openings, an octagonal lantern storey with arched openings at the top, and a large red flag with a yellow star on a mast above it, rising from a dark stepped stone base with a balustrade. Shape, the fan-shaped light slits and the flag identify the Cot Co / Hanoi Flag Tower inside the Military History Museum compound."}
+  ]
+}

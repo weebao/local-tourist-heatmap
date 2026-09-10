@@ -1,0 +1,148 @@
+{
+ "pile": "105.8360,21.0293",
+ "verdict": "genuine_place",
+ "verdict_reason": "20 of the 20 photos are on the sheet, from 3 photographers, and this pile is much weaker evidence than its neighbours because 15 of the frames are tight detail shots - roof-ridge ceramics, bonsai in stone pots, incense, lacquered joinery - with no readable text and no wide context. The one frame that does resolve (4169221267) is unmistakably the Dai Bai hall of the Temple of Literature, matched frame-for-frame by two other photographers at the adjacent pins (8599847643, 2803349864), and the hall interior, gilt crane and carved dragon frieze from the same roll follow from it. I therefore read the pin as the real Van Mieu rather than a dumping ground: nothing in the pile contradicts a single temple, and no frame shows a different identifiable place. But with 3 photographers and only one positive fix I flag the residual risk that some of these close-ups were taken at another Hanoi temple on the same day; I have marked those UNIDENTIFIED rather than guess.",
+ "place_if_genuine": "Temple of Literature",
+ "photos": [
+  {
+   "id": "2430431549",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Carved grey stone lantern with a pierced star-shaped opening and a tiled-form cap, standing in mown grass beside a paved path, with a red-flowering shrub (poinsettia) behind. The same type of stone lantern in the same kind of grass-and-brick-path setting is photographed by a different photographer inside the Temple of Literature enclosure (449261345); that cross-match is the only locational evidence."
+  },
+  {
+   "id": "2430436723",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.55,
+   "evidence": "Wire-and-moss topiary bird in a carved grey stone pot on a brick-paved court, with the out-of-focus red-lacquered columns and dark doorway of a temple hall behind and a woman in a conical hat standing on the paving. Brick paving, carved stone pots and a red-columned hall match the Temple of Literature courtyards verified elsewhere in this coordinate group; no text in frame."
+  },
+  {
+   "id": "2430437637",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.25,
+   "evidence": "Desaturated close-up of a leafless frangipani bonsai in a round stone pot on a brick-paved step, with a blurred dark red timber structure and a whitewashed wall behind. Consistent with a Vietnamese temple courtyard but with nothing that identifies which one."
+  },
+  {
+   "id": "2430439673",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.2,
+   "evidence": "Very shallow-focus shot of a coiled incense spiral on a stand against a wash of orange-red temple interior light. No structure, text or ground visible."
+  },
+  {
+   "id": "2430442245",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.25,
+   "evidence": "Close-up of a terracotta roof-ridge sculpture - a curling stylised wave/leaf ornament and a scrolled disc - against sky, with the tile courses of the ridge below. Vietnamese temple roof ceramics; no way to tell which roof."
+  },
+  {
+   "id": "2430443377",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.25,
+   "evidence": "Black-and-white close-up of a leafless bonsai in a stone pot on a stone balustrade cap, with a brick wall and carved stone ornament behind. Temple courtyard detail with nothing identifying."
+  },
+  {
+   "id": "2431246164",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.25,
+   "evidence": "Silhouetted terracotta roof-ridge figures against white sky: a crouching dragon-dog (nghe) and a lidded ritual vase on the ridge tiles."
+  },
+  {
+   "id": "2431249350",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.25,
+   "evidence": "The same crouching ridge figure from a different angle, with tree canopy at the right and the ridge tiles below."
+  },
+  {
+   "id": "2431252336",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.3,
+   "evidence": "Full ridge dragon in relief terracotta - a long-bodied dragon with mane and claws running along the roof ridge over patterned tiles. Nearly the same ridge dragon is shot by another photographer at this coordinate group (5699177320), but neither frame shows the building it sits on."
+  },
+  {
+   "id": "2431254866",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.25,
+   "evidence": "Carved grey stone ornament with spiral cloud/wave scrollwork on a stone base, set against out-of-focus red-lacquered temple doors."
+  },
+  {
+   "id": "4169221267",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "A big red silk lantern with a knotted tassel hanging in the foreground, and behind it the long low hall with a sweeping terracotta roof, openwork dragon ridge, red columns, red banners and lanterns, fronted by stone-potted bonsai on a wide light-grey paved court full of visitors. This is the Dai Bai hall of the Temple of Literature - the same hall, three bonsai and paving are shot from ground level by two other photographers at this coordinate group (8599847643, 2803349864)."
+  },
+  {
+   "id": "4169222525",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Close-up of a red-lacquered timber frieze: a row of turned balusters above a deeply carved panel of confronted dragons among clouds. Matches the carved and lacquered frieze of the hall this photographer shot in 4169221267, but the detail alone is generic."
+  },
+  {
+   "id": "4171756263",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.65,
+   "evidence": "Interior of a large timber hall: two ranks of red-brown round columns on stone bases, an exposed rafter-and-tile ceiling, an octagonal glass-and-timber lantern chandelier, terracotta floor tiles, a big bronze tripod urn with dragon handles in the centre and a gilded seated figure on a red altar in the shrine beyond. The urn, columns, tile floor and altar match the Dai Bai / Thuong Dien interior of the Temple of Literature that the same photographer documented from outside."
+  },
+  {
+   "id": "4171756771",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.2,
+   "evidence": "Hand-painted blue-on-white sign 'NOI CHAM HUONG / KHONG HOA VANG' ('place to light incense / no burning of votive paper') on a wall, with a wax-encrusted stone or ceramic pedestal in front carrying a glass of red liquid; concrete blocks and a paved yard. A Vietnamese temple or pagoda service area - the wording is generic and appears at hundreds of sites, so I will not name one."
+  },
+  {
+   "id": "4171757541",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.3,
+   "evidence": "Dense bundle of pink-shafted incense sticks burning in a sand tray, with a carved stone dragon-dog head and red-lacquered columns behind. Temple forecourt detail with nothing identifying."
+  },
+  {
+   "id": "4171758295",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.2,
+   "evidence": "Interior corner: red-painted timber walls and lattice shutters, a floor lamp with a pleated shade, a blank framed board leaning on a red table, a green military peaked cap with a red star badge on the table, and a red banner across the tabletop reading 'Chao mung cac ban den v...' ('Welcome, friends, to ...'). The banner is cut off exactly where the place name would be; nothing else in frame places it."
+  },
+  {
+   "id": "4171759529",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Red-lacquered timber wall of lattice-panel doors and window shutters, seen down the inside of a hall with red columns and daylight at the far end. Matches the joinery of the hall interior in 4171756263 from the same photographer; generic on its own."
+  },
+  {
+   "id": "4172513876",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Close-up of a gilded and white-painted crane's head and neck with flame-shaped wing tips, in front of an out-of-focus gilded, crowned seated statue in red robes, under red-lacquered beams. A bronze/gilt crane standing beside the altar - the same crane-on-turtle figure that another photographer at this coordinate group photographed full length inside the Temple of Literature's Dai Bai (5608070162) - but this tight crop shows no inscription."
+  },
+  {
+   "id": "4182036645",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.2,
+   "evidence": "A rusting sky-blue metal shutter or lorry side hand-painted in red with 'BAN BUON ...', 'PHAT 10.00...' and '... 10TR', with a painted wooden water-puppet figure standing on a polystyrene box and a worn stone millstone on the paving in front. The lettering is a price/wholesale notice with no address or business name legible."
+  },
+  {
+   "id": "5699197662",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.2,
+   "evidence": "Rows of painted wooden Vietnamese water-puppet figures (rice farmers, dancers) on a wooden bench or table, shallow depth of field. Souvenir or workshop stock - such stalls stand inside the Temple of Literature courtyards, but nothing in the frame proves it."
+  }
+ ]
+}

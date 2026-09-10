@@ -1,0 +1,85 @@
+{
+ "pile": "105.8363,21.0295",
+ "verdict": "genuine_place",
+ "verdict_reason": "The identifiable content is all one site: the Van Mieu Mon gate with its stone plaque read right-to-left as 文廟門, the doctors' stelae standing on stone tortoises in the red-floored stele gallery, the green square Thien Quang well with its white stone balustrade and a red-columned tiled gate beyond hung with Tet flags, and red lanterns strung along the stele gallery with stele tops visible between the timber columns - i.e. the Temple of Literature. The remaining frames are detail shots from the same walk (bronze dragon ornaments, a mosaic-inlaid roof-ridge dragon, red-lacquered eaves with lanterns, an incense urn in front of a Confucian couplet board) which fit the site but carry no independent legible evidence, and one brick-wall garden shot that identifies nothing. Important caveat on the pile itself: 8 of the 11 sampled photos are by a single Flickr user, and that same user also supplied 4 of the sampled photos in the Ho Chi Minh Mausoleum pile - so part of what holds this pile together is one photographer's tagging habit rather than many independent observers. The subject matter is nevertheless a single real place, so genuine rather than dumping ground.",
+ "place_if_genuine": "Temple of Literature, Hanoi",
+ "photos": [
+  {
+   "id": "6910143358",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.96,
+   "evidence": "Two-storey grey stone gate with a central arched passage and two flanking arched openings, a bell visible in the upper chamber, deep-relief dragon and mythical-beast panels on the piers, stone couplet pillars with vertical Chinese inscriptions, and a lattice-work 'longevity' medallion in the wall. The plaque under the upturned tiled roof reads right-to-left 文 廟 門 (Van Mieu Mon), the main gate of the Temple of Literature."
+  },
+  {
+   "id": "7056234339",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.96,
+   "evidence": "Receding row of large round-topped stone stelae, each set on the back of a carved stone tortoise, standing on a red-painted floor under a timber-columned open gallery with an old brick wall beyond. These are the doctors' stelae of the Le and Mac exam laureates in the stele houses at Van Mieu - Quoc Tu Giam."
+  },
+  {
+   "id": "7056232733",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "A rectangular green-water pond edged all round by a low white stone balustrade with square posts and pierced panels; beyond it a low tiled-roof gate building with red-lacquered columns and red painted lintels, bonsai in pots, a five-colour festival flag and a Vietnamese flag on bamboo poles and a small yellow banner. Matches the Thien Quang well courtyard at the Temple of Literature looking toward the Dai Thanh gate; the balustraded square pond plus the red gate building is the distinctive combination."
+  },
+  {
+   "id": "6910148334",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "Red silk lanterns with yellow tassels hung in a receding line under the eaves of an open gallery of unpainted dark timber columns and stepped bracket blocks, tiled roof edge at right. Between the columns at lower left the rounded tops of stone stelae are visible, which ties this to the stele gallery in the previous frame rather than to a generic temple veranda."
+  },
+  {
+   "id": "6910155616",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Upward view into bright red-lacquered eaves and rafters with dark carved cloud-and-dragon bracket panels, red lanterns with yellow tassels hanging in a row. Red-lacquered timber of this kind occurs on the Khue Van Cac and the Dai Thanh buildings at Van Mieu, but nothing in frame is unique to the site - the identification rests on continuity with the other frames of the same visit."
+  },
+  {
+   "id": "6910151970",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Silhouette of a long ridge dragon with a flame-crest spine, inlaid with pale ceramic shards, running along the ridge of a red-tiled roof against flat grey sky. A standard northern-Vietnamese temple ridge ornament; no feature unique to one building, so this is same-visit inference only."
+  },
+  {
+   "id": "6910150242",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Close-up of a dark bronze dragon with fine scale chasing and a whiskered head, part of a larger bronze vessel or candle stand, with pale stone paving and a flight of low stone steps out of focus behind. Setting is a temple courtyard with stone steps; nothing legible, so the site rests on same-visit continuity."
+  },
+  {
+   "id": "7056241081",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.45,
+   "evidence": "Two bronze dragon heads with long corkscrew antlers and flowing manes, part of a large bronze ornament, against a background of red-tiled temple roofs, a whitewashed veranda and green trees. Consistent with the Van Mieu courtyards but no inscription or unique structure in frame."
+  },
+  {
+   "id": "7380615432",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "A large urn packed with hundreds of burnt red incense sticks smoking in front of red-lacquered doors with lattice panels, dark bronze dragon-head ornaments either side, and a vertical red couplet board whose characters read top-to-bottom as 教 澤 萬 世 仰 無 疆 ('the beneficence of teaching, revered without limit for ten thousand generations'). The explicitly Confucian teaching couplet points to a temple of Confucius, which fits Van Mieu's Dai Thanh sanctuary, but I could not confirm that exact couplet's location in a search, and other Confucian/scholar shrines would carry similar wording - so this is moderate, not firm."
+  },
+  {
+   "id": "7684760830",
+   "place": "Temple of Literature, Hanoi",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "A long single-storey hall of bare weathered brick with a heavy red-tiled roof, moulded gable end and a pierced stone lattice window, red lanterns hung along its open colonnaded front, standing on a large brick-paved courtyard with bonsai and stone plant stands, visitors seated at right. The exposed-brick hall with an open colonnade, red lanterns and bonsai on brick paving fits the Van Mieu courtyards, and the photographer's other frame in this pile is from the same garden, but no plaque or sign is legible."
+  },
+  {
+   "id": "7684759966",
+   "place": "UNIDENTIFIED",
+   "specificity": "city",
+   "confidence": 0.15,
+   "evidence": "A mossy old brick wall with terracotta pots of pink and yellow flowers hooked along it, a green metal pergola arch with hanging baskets, fan palms and long grass, an overhead wire, and behind the wall the corner of a tiled roof with an upturned ridge ornament. Clearly a temple or garden compound in northern Vietnam, but there is no sign, inscription or distinctive structure to place it - I will not attach it to a landmark on the strength of the roof corner alone."
+  }
+ ]
+}

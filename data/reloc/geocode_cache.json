@@ -1,0 +1,390 @@
+{
+ "9 nguyen thai hoc, hanoi": [
+  105.8296219,
+  21.0322745,
+  "Phố Nguyễn Thái Học, Kim Mã Hạ, Phường Giảng Võ, Thành phố Hà Nội, 11110, Việt Nam"
+ ],
+ "ho chi minh mausoleum, ba dinh square, hanoi": [
+  105.8346888,
+  21.0367831,
+  "Lăng Chủ tịch Hồ Chí Minh, 1, Đường Hùng Vương, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "hanoi train street, hanoi": [
+  105.8440687,
+  21.0301529,
+  "Hanoi Train Street, Phố Trần Phú, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hanoi opera house (nha hat lon ha noi), hanoi": [
+  105.8578344,
+  21.0242022,
+  "Nhà hát Lớn, 1A, Phố Tràng Tiền, Phường Cửa Nam, Thành phố Hà Nội, 11018, Việt Nam"
+ ],
+ "52 nguyen du, hanoi": [
+  105.8497455,
+  21.0160704,
+  "52, Phố Bùi Thị Xuân, Vân Hồ, Phường Hai Bà Trưng, Thành phố Hà Nội, 11626, Việt Nam"
+ ],
+ "temple of literature (van mieu - quoc tu giam), hanoi": [
+  105.8359533,
+  21.0287903,
+  "Văn Miếu - Quốc Tử Giám, Phường Văn Miếu - Quốc Tử Giám, Thành phố Hà Nội, 11508, Việt Nam"
+ ],
+ "khue van cac, temple of literature (van mieu - quoc tu giam), hanoi": [
+  105.8358876,
+  21.0285774,
+  "Khuê Văn Các, Phố Văn Miếu, Thanh Giám, Phường Văn Miếu - Quốc Tử Giám, Thành phố Hà Nội, 11508, Việt Nam"
+ ],
+ "cat ba / ha long bay floating village, vietnam": [
+  107.9650855,
+  15.9266657,
+  "Việt Nam"
+ ],
+ "10 tran nguyen han, hanoi": [
+  105.854614,
+  21.0288744,
+  "Phố Trần Nguyên Hãn, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "ly thai to, hanoi": [
+  105.8542169,
+  21.0305769,
+  "Sở Văn hóa và Thể thao Thành phố Hà Nội, 47, Phố Hàng Dầu, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 10147, Việt Nam"
+ ],
+ "sentinel place, 41a ly thai to, hanoi": [
+  105.8557695,
+  21.0287096,
+  "Leadvisors Place, 41A, Phố Lý Thái Tổ, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "59 ly thai to, hanoi": [
+  105.8569497,
+  21.0254935,
+  "Hội Nhà báo Việt Nam, 59, Phố Lý Thái Tổ, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "pho ly dao thanh, hanoi": [
+  105.8573587,
+  21.0253354,
+  "Phố Lý Đạo Thành, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hoa lo prison (maison centrale), 1 hoa lo, hanoi": [
+  105.8465093,
+  21.0254222,
+  "Nhà tù Hỏa Lò, 1, Phố Hỏa Lò, Phường Cửa Nam, Thành phố Hà Nội, 11018, Việt Nam"
+ ],
+ "st joseph's cathedral (nha tho lon), hanoi": [
+  105.8488566,
+  21.0286483,
+  "Nhà thờ Lớn, 40, Ngõ Huyện, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "temple of literature (van mieu - quoc tu giam), quoc tu giam, hanoi": [
+  105.8359533,
+  21.0287903,
+  "Văn Miếu - Quốc Tử Giám, Phường Văn Miếu - Quốc Tử Giám, Thành phố Hà Nội, 11508, Việt Nam"
+ ],
+ "lenin statue, dien bien phu street, hanoi": null,
+ "long bien bridge, hanoi": [
+  105.8580334,
+  21.0430652,
+  "Cầu Long Biên, An Xá, Phường Hồng Hà, Thành phố Hà Nội, 11025, Việt Nam"
+ ],
+ "hanoi opera house": [
+  105.8578344,
+  21.0242022,
+  "Nhà hát Lớn, 1A, Phố Tràng Tiền, Phường Cửa Nam, Thành phố Hà Nội, 11018, Việt Nam"
+ ],
+ "ly thai to statue, ly thai to flower garden, dinh tien hoang, hanoi": null,
+ "ta hien street, hanoi": [
+  105.852079,
+  21.0341902,
+  "Phố Tạ Hiện, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "thap hoa phong, dinh tien hoang, hoan kiem lake, hanoi": [
+  105.853313,
+  21.0263363,
+  "Tháp Hòa Phong, Phố Đinh Tiên Hoàng, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "ngoc son temple, hoan kiem lake, hanoi": [
+  105.8523763,
+  21.0307272,
+  "Đền Ngọc Sơn, Cầu Thê Húc, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "ngoc son temple gate, hoan kiem lake, hanoi": [
+  105.8525357,
+  21.0288313,
+  "Hồ Hoàn Kiếm, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "the huc bridge, hoan kiem lake, hanoi": [
+  105.8527822,
+  21.0307694,
+  "Cầu Thê Húc, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "turtle tower (thap rua), hoan kiem lake, hanoi": [
+  105.8522929,
+  21.0278731,
+  "Tháp Rùa, Phố Lê Thái Tổ, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hoan kiem lake, hanoi": [
+  105.8525357,
+  21.0288313,
+  "Hồ Hoàn Kiếm, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "13 luong ngoc quyen, hanoi": [
+  105.7949941,
+  20.9840816,
+  "Phố Lương Ngọc Quyến, Kẻ Đơ, Phường Thanh Liệt, Thành phố Hà Nội, 12011, Việt Nam"
+ ],
+ "1-3-5 dinh tien hoang, hoan kiem, hanoi": [
+  105.8534544,
+  21.0266767,
+  "Phố Đinh Tiên Hoàng, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "ho chi minh mausoleum, hanoi": [
+  105.8346888,
+  21.0367831,
+  "Lăng Chủ tịch Hồ Chí Minh, 1, Đường Hùng Vương, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "hoa lo prison museum, hanoi": [
+  105.8465093,
+  21.0254222,
+  "Nhà tù Hỏa Lò, 1, Phố Hỏa Lò, Phường Cửa Nam, Thành phố Hà Nội, 11018, Việt Nam"
+ ],
+ "vuon hoa ly thai to, dinh tien hoang, hanoi": [
+  105.8547497,
+  21.0274649,
+  "Vườn hoa Lý Thái Tổ, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "ngoc son temple, hanoi": [
+  105.8523763,
+  21.0307272,
+  "Đền Ngọc Sơn, Cầu Thê Húc, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "thang long water puppet theatre, hanoi": [
+  105.853455,
+  21.0317043,
+  "Nhà hát Múa rối nước Thăng Long, 57B, Phố Đinh Tiên Hoàng, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "cam tu monument, dinh tien hoang, hoan kiem, hanoi": [
+  105.8534544,
+  21.0266767,
+  "Phố Đinh Tiên Hoàng, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "thuy ta pavilion, hoan kiem lake, hanoi": [
+  105.8525357,
+  21.0288313,
+  "Hồ Hoàn Kiếm, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "sofitel legend metropole hanoi, 15 ngo quyen, hanoi": [
+  105.8559784,
+  21.0254884,
+  "Sofitel Legend Metropole Hà Nội, 15, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "le salon arcade, sofitel legend metropole hanoi, 15 ngo quyen, hanoi": [
+  105.8559784,
+  21.0254884,
+  "Sofitel Legend Metropole Hà Nội, 15, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "sofitel legend metropole hanoi (la terrasse corner, ngo quyen at ly thai to), hanoi": [
+  105.8559784,
+  21.0254884,
+  "Sofitel Legend Metropole Hà Nội, 15, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "sofitel legend metropole hanoi opera wing boutiques, hanoi": [
+  105.854041,
+  21.0283334,
+  "Thành phố Hà Nội, Việt Nam"
+ ],
+ "sofitel legend communal areas, sofitel legend metropole hanoi, 15 ngo quyen, hanoi": [
+  105.8559784,
+  21.0254884,
+  "Sofitel Legend Metropole Hà Nội, 15, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "sofitel legend metropole hanoi opera wing, ngo quyen / ly thai to, hanoi": [
+  105.8563449,
+  21.0294922,
+  "Mercedes-Benz Vietnam Star, 2, Phố Ngô Quyền, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "sofitel legend metropole hanoi pool courtyard, 15 ngo quyen, hanoi": [
+  105.7612599,
+  20.9706889,
+  "Ngô Quyền, BT6, Phường Hà Đông, Thành phố Hà Nội, 10189, Việt Nam"
+ ],
+ "sofitel legend metropole hanoi (le beaulieu), 15 ngo quyen, hanoi": [
+  105.8559784,
+  21.0254884,
+  "Sofitel Legend Metropole Hà Nội, 15, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hermes store, sofitel legend metropole hanoi opera wing, hanoi": null,
+ "sofitel legend metropole hanoi entrance, 15 ngo quyen, hanoi": [
+  105.7612599,
+  20.9706889,
+  "Ngô Quyền, BT6, Phường Hà Đông, Thành phố Hà Nội, 10189, Việt Nam"
+ ],
+ "ho huu tiep, hanoi": [
+  105.8269943,
+  21.0379603,
+  "Hồ Hữu Tiệp, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "ho chi minh mausoleum": [
+  105.8346888,
+  21.0367831,
+  "Lăng Chủ tịch Hồ Chí Minh, 1, Đường Hùng Vương, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "ba dinh square": [
+  105.8357925,
+  21.0369867,
+  "Quảng trường Ba Đình, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "nguyen thai hoc, hanoi": [
+  105.6548167,
+  21.0885758,
+  "Phố Nguyễn Thái Học, Xã Đan Phượng, Thành phố Hà Nội, Việt Nam"
+ ],
+ "van mieu, hanoi": [
+  105.8410067,
+  21.0242336,
+  "Hà Nội, 120, Đường Lê Duẩn, Yên Thế, Phường Văn Miếu - Quốc Tử Giám, Thành phố Hà Nội, 11508, Việt Nam"
+ ],
+ "temple of literature": [
+  105.8359533,
+  21.0287903,
+  "Văn Miếu - Quốc Tử Giám, Phường Văn Miếu - Quốc Tử Giám, Thành phố Hà Nội, 11508, Việt Nam"
+ ],
+ "temple of literature, hanoi": [
+  105.8359533,
+  21.0287903,
+  "Văn Miếu - Quốc Tử Giám, Phường Văn Miếu - Quốc Tử Giám, Thành phố Hà Nội, 11508, Việt Nam"
+ ],
+ "benh vien da khoa xanh pon, hanoi": [
+  105.8351565,
+  21.0313008,
+  "Bệnh viện Đa khoa Xanh Pôn, 12, Phố Chu Văn An, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "the huc bridge, hanoi": [
+  105.8527822,
+  21.0307694,
+  "Cầu Thê Húc, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "vietnam military history museum": [
+  105.7547059,
+  21.0115868,
+  "Bảo tàng Lịch sử Quân sự Việt Nam, Km 6+500, Đại lộ Thăng Long, Tây Mỗ, Phường Tây Mỗ, Thành phố Hà Nội, 12008, Việt Nam"
+ ],
+ "hanoi flag tower": [
+  105.8398246,
+  21.0325903,
+  "Cột cờ Hà Nội, Đường Điện Biên Phủ, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "vietnam military history museum, hanoi": [
+  105.7547059,
+  21.0115868,
+  "Bảo tàng Lịch sử Quân sự Việt Nam, Km 6+500, Đại lộ Thăng Long (Láng - Hoà Lạc), Kẻ Ngà (Miêu Nha), Phường Xuân Phương, Thành phố Hà Nội, 12008, Việt Nam"
+ ],
+ "vietnam military history museum, dien bien phu, hanoi": [
+  105.7547059,
+  21.0115868,
+  "Bảo tàng Lịch sử Quân sự Việt Nam, Km 6+500, Đại lộ Thăng Long, Tây Mỗ, Phường Tây Mỗ, Thành phố Hà Nội, 12008, Việt Nam"
+ ],
+ "hang vai, hanoi": [
+  105.8467523,
+  21.0355778,
+  "Phố Hàng Vải, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hang quat, hanoi": [
+  105.8495832,
+  21.0328812,
+  "Khách Sạn Hanoi Eclipse, 34, Phố Hàng Quạt, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "dong kinh nghia thuc square, hanoi": [
+  105.8515916,
+  21.0320773,
+  "Quảng trường Đông Kinh Nghĩa Thục, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "ngoc son temple": [
+  105.8523763,
+  21.0307272,
+  "Đền Ngọc Sơn, Cầu Thê Húc, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hoan kiem lake": [
+  105.8525357,
+  21.0288313,
+  "Hồ Hoàn Kiếm, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "the huc bridge": [
+  105.8527822,
+  21.0307694,
+  "Cầu Thê Húc, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "turtle tower, hanoi": [
+  105.8522929,
+  21.0278731,
+  "Tháp Rùa, Phố Lê Thái Tổ, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hang non, hanoi": [
+  105.8482285,
+  21.0324764,
+  "Khách Sạn Hanoi Fantasy, 78b, Phố Hàng Nón, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "ly thai to monument, hanoi": [
+  105.854501,
+  21.0274885,
+  "Tượng đài Lý Thái Tổ, Phố Lê Lai, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hang gai, hanoi": [
+  105.850937,
+  21.0321895,
+  "Nhà Hàng Little Hanoi, 21, Phố Hàng Gai, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "st joseph cathedral, hanoi": [
+  105.8488566,
+  21.0286483,
+  "Nhà thờ Lớn, 40, Ngõ Huyện, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "le thai to monument, hanoi": [
+  105.8509582,
+  21.0290553,
+  "Đài Tưởng Niệm Vua Lê Thái Tổ, Phố Hàng Trống, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "hang ma, hanoi": [
+  105.8466331,
+  21.0372907,
+  "Phường Hàng Mã, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "o quan chuong, hanoi": [
+  105.8522085,
+  21.0373307,
+  "Ô Quan Chưởng, Phố Ô Quan Chưởng, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "thang long water puppet theatre": [
+  105.853455,
+  21.0317043,
+  "Nhà hát Múa rối nước Thăng Long, 57B, Phố Đinh Tiên Hoàng, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "ho chi minh museum, hanoi": [
+  105.8326294,
+  21.0356168,
+  "Bảo tàng Hồ Chí Minh, 19, Phố Ngọc Hà, Xuân Biểu, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "one pillar pagoda, hanoi": [
+  105.8336143,
+  21.0358555,
+  "Chùa Một Cột, Phố Ông Ích Khiêm, Xuân Biểu, Phường Ba Đình, Thành phố Hà Nội, 11120, Việt Nam"
+ ],
+ "hanoi old quarter": [
+  105.8500395,
+  21.0353243,
+  "Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "thap but, hanoi": [
+  105.8533875,
+  21.0306387,
+  "Tháp Bút, Phố Đinh Tiên Hoàng, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "sofitel legend metropole hanoi": [
+  105.8559784,
+  21.0254884,
+  "Sofitel Legend Metropole Hà Nội, 15, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ],
+ "con coc fountain, hanoi": [
+  105.8559901,
+  21.0263941,
+  "Đài phun nước Con Cóc, Phố Lý Thái Tổ, Khu phố cổ, Phường Hoàn Kiếm, Thành phố Hà Nội, 11024, Việt Nam"
+ ]
+}

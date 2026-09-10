@@ -1,0 +1,10 @@
+{
+  "pile": "105.8518,21.0322",
+  "verdict": "genuine_place",
+  "verdict_reason": "Only 2 of this pile's photos existed on disk (the contact sheet carries just one tile), so this verdict is weak by construction. Both are from different photographers and both belong to the same small area at the north end of Hoan Kiem Lake: one is an unambiguous read of the curved 'Shark Jaws' building at 1-3-5 Dinh Tien Hoang (signs CITY VIEW CAFE / HOA LONG / HIGHLANDS COFFEE / Legend beer / TRUNG TAM MAY DO VESTON CAO CAP), the other is an elevated night long-exposure over a wide Old Quarter junction that is consistent with the view down from that same building. Nothing in the sample contradicts a single real place, but with n=2 out of ~36 I cannot rule out that the pin is a Hoan Kiem place-centroid; the identified subject is also ~150 m north of the pin.",
+  "place_if_genuine": "Dong Kinh Nghia Thuc Square, Hoan Kiem, Hanoi",
+  "photos": [
+    {"id":"2803347464","place":"1-3-5 Dinh Tien Hoang, Hoan Kiem, Hanoi","specificity":"landmark","confidence":0.9,"evidence":"The curved, stepped-balcony 'Ham ca map' (Shark Jaws) building read floor by floor from its own signs: 'CITY VIEW CAFE' on the roof under a Vietnamese flag, 'Quan an HOA LONG' with Korean text, 'HIGHLANDS COFFEE', 'Legend beer', and 'TRUNG TAM MAY DO VESTON CAO CAP' at street level; an EMS 'DIEN HOA' van below. Public listings put City View Cafe / Legend Beer at 1-3-5 Dinh Tien Hoang facing Dong Kinh Nghia Thuc Square at the north end of Hoan Kiem Lake."},
+    {"id":"7305905980","place":"Hanoi Old Quarter","specificity":"district","confidence":0.45,"evidence":"Night long-exposure looking steeply down from an upper-floor balcony onto a wide, multi-way asphalt junction with light trails, cyclos and xe om waiting, an overhead low-voltage wire bundle, and a row of clothing shops with garments hung out along the street at the top of frame. The vantage and the garment shops fit the Dong Kinh Nghia Thuc Square / Hang Dao junction seen from the Shark Jaws building, but no street plate or shop name is legible in the 640 px original, so I will not commit past Old Quarter."}
+  ]
+}

@@ -1,0 +1,155 @@
+{
+ "pile": "105.8358,21.0291",
+ "verdict": "genuine_place",
+ "verdict_reason": "21 of the 21 photos are on the sheet, from 4 photographers, and 18 of them are demonstrably inside the Temple of Literature: the bilingual 'DO NOT ... SIT ON THE DOCTOR'S STELEA' notice (209979833) is unique to Van Mieu, and the stele houses with their turtle-mounted stelae, the Thien Quang well with Khue Van Cac (209981657, 8600946800) and the Dai Bai courtyard with its dragon-handled urn and three bonsai (8599847643) are all present, the last of these matched frame-for-frame by two other photographers at the neighbouring pins. The three frames that are not in the temple all come from one photographer's roll and stay in the immediate neighbourhood or are unlocatable: a shopfront reading '119 Nguyen Thai Hoc', a pavement bia hoi whose awning reads '... Mieu - Ha Noi', and a porcelain-shard sculpture courtyard I cannot place. That is walk-in/walk-out spillover from a single visit, not a citywide dumping ground.",
+ "place_if_genuine": "Temple of Literature",
+ "photos": [
+  {
+   "id": "209978484",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.2,
+   "evidence": "Three large sculptures of clenched fists/paws rising out of a ground plane, all surfaced in shards of blue-and-white porcelain, in the courtyard of a plain modern white-rendered building with louvred vents, a recessed niche and a downpipe. An art installation, clearly not a temple - but there is no sign, plate or street furniture in frame, so I will not name a site."
+  },
+  {
+   "id": "209979165",
+   "place": "Nguyen Thai Hoc, Hanoi",
+   "specificity": "street",
+   "confidence": 0.8,
+   "evidence": "Street corner of three- and four-storey colonial-era shophouses with balustraded balconies and shuttered French windows, tangled low-voltage bundles on concrete poles, an SUV at the kerb. The shop fascia at the left reads '119 NGUYEN THAI HOC  TEL: 7.47.63.79' (enlarged and sharpened), and the neighbouring banners read 'TRUNG TAM ... KINH MAT VINH LAN' / 'THIET BI NGANH MAY VINH LAN' with industrial sewing-machine brands JUKI, BROTHER, SIRUBA, GOLDEN WHEEL. The house-number plate fixes this to Nguyen Thai Hoc street."
+  },
+  {
+   "id": "209979525",
+   "place": "Van Mieu, Hanoi",
+   "specificity": "street",
+   "confidence": 0.7,
+   "evidence": "Pavement bia hoi and pho stall: green banner 'BIA HOI - HA NOI / COM RANG - COM DIA - COM ...', yellow awning 'PHO BO / TAI - NAM - GAU / BUN - MIEN XAO', blue plastic stools and tables on the tiled pavement, a whitewashed plane tree. The topmost awning strip, enlarged, reads '...AN MIEU - HA NOI  TEL: (04) 8 43 58 64' - i.e. an address on pho Van Mieu, the street along the west side of the Temple of Literature."
+  },
+  {
+   "id": "209979833",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.9,
+   "evidence": "Blue enamel notice, white lettering, bilingual: 'KHONG VIET, VE, DUNG, NGOI LEN BIA TIEN SY! / DO NOT WRITE, DRAW, STEP, SIT ON THE DOCTOR'S STELEA!', screwed to a timber post inside a tile-roofed open hall with stone turtles visible beyond. The doctors' stelae (bia tien si) exist only at the Temple of Literature."
+  },
+  {
+   "id": "209980301",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Row of tall arch-topped stone stelae standing on carved stone turtles between round timber columns, under a tiled roof on a terracotta-tiled floor - the stele houses of the doctors' stelae, the same hall as the bilingual stelae notice in this pile."
+  },
+  {
+   "id": "209980620",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Line of carved stone turtles each carrying a stele slab, receding between the columns of the stele house on the tiled floor."
+  },
+  {
+   "id": "209981101",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Interior colonnade of the same stele house: two ranks of round timber columns on stone bases, plain concrete pillar in the middle, tiled floor and a red-framed doorway at the far end opening onto daylight."
+  },
+  {
+   "id": "209981657",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.85,
+   "evidence": "The two-storey square pavilion with a red-lacquered upper storey, round window openings and a double tiled roof standing over a walled rectangular pond with a stone balustrade, clipped hedges and brick paving - Khue Van Cac above the Thien Quang well, photographed again in this pile as 8600946800."
+  },
+  {
+   "id": "209982029",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Large bronze incense urn with cast dragon handles on a stepped plinth, packed with burning incense, standing between red-lacquered columns inside a red hall with a framed panel above. Same urn and hall as this photographer's stelae frames, i.e. inside the Temple of Literature; nothing readable in the frame itself."
+  },
+  {
+   "id": "209982413",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Second exposure of the same dragon-handled bronze incense urn full of smoking incense inside the red-columned hall."
+  },
+  {
+   "id": "209982717",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Third exposure of the same dragon-handled urn, heavy incense smoke, red columns and terracotta tile floor."
+  },
+  {
+   "id": "209983046",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Fourth exposure of the same urn, this time showing the carved and gilded timber frieze and red-lacquered doorframe of the hall behind it."
+  },
+  {
+   "id": "449026473",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Family posed on a brick-paved path edged with clipped hedges under tall mature trees, lawn beyond, a low wall at the left - the treed inner courtyards of the Temple of Literature; the same photographer's other frames in this pile show the stelae and the turtle bases."
+  },
+  {
+   "id": "449261345",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.6,
+   "evidence": "Couple with a baby on a brick-paved walk beside an old lichened brick wall, a carved stone lantern with a pierced star-shaped opening standing in the grass strip, a tiled-roof open hall and a second stone marker further along. The old brick dividing walls, grass strips and stone lanterns of the Temple of Literature enclosure; the same style of stone lantern is photographed by another photographer at this coordinate (2430431549)."
+  },
+  {
+   "id": "449266434",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Adults with a baby standing beside a large stone-potted bonsai, with arch-topped stelae on carved turtles and the tiled eaves of the stele house directly behind them."
+  },
+  {
+   "id": "449266747",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.7,
+   "evidence": "Woman crouching with a baby to touch the carved head of a stone turtle stele base on the tiled floor of the stele house, whitewashed wall behind."
+  },
+  {
+   "id": "449276671",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Woman and baby in front of a red-lacquered column and a tall red banner carrying large gold chu Han characters ('...khuyen van...'). Temple interior joinery matching the same photographer's stele-house frames; the banner text is only partly visible."
+  },
+  {
+   "id": "5561004616",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.5,
+   "evidence": "Small open temple hall: four red-lacquered columns, red timber doorframes, a moss-grown terracotta tile roof, small red lanterns with gold characters, whitewashed rendered end walls with a moulded cap, stone steps and potted bonsai in front. Style, whitewashed enclosure walls and bonsai are those of the Temple of Literature side buildings, but no plaque is legible, so I hold the confidence low."
+  },
+  {
+   "id": "8429357368",
+   "place": "UNIDENTIFIED",
+   "specificity": "landmark",
+   "confidence": 0.15,
+   "evidence": "A damp, mould-streaked whitewashed rendered wall with two horizontal string courses, and a spray of lanceolate green-and-yellow leaves in front of it. No structure, sign, ground surface or skyline - no locational evidence whatsoever."
+  },
+  {
+   "id": "8599847643",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.8,
+   "evidence": "Large brick-paved courtyard, wet from rain, with a big bronze dragon-handled incense urn on a stone plinth flanked by two stone-potted bonsai, facing a long low hall with a sweeping terracotta roof, an openwork dragon ridge, red columns and red doors; parasols and souvenir stalls at the right. This is the Dai Bai courtyard of the Temple of Literature - the identical hall, urn and three bonsai are shot by two other photographers at this coordinate group (4169221267, 2803349864)."
+  },
+  {
+   "id": "8600946800",
+   "place": "Temple of Literature",
+   "specificity": "landmark",
+   "confidence": 0.75,
+   "evidence": "Square walled pond of green water with a white stone balustrade all round, brick paving in the foreground, mature trees, and a small red-lacquered two-storey pavilion with a tiled roof centred on the far side - the Thien Quang well with Khue Van Cac, the same subject as 209981657 in this pile."
+  }
+ ]
+}
