@@ -1,4 +1,4 @@
-# Style spec: Eric Fischer's *Locals and Tourists*, 2010
+# Style spec: Erica Fischer's *Locals and Tourists*, 2010
 
 What the series actually does, what we verified, and what we guessed.
 
@@ -31,15 +31,15 @@ here deliberately, because the same trap is easy to fall back into.
 | size | 6137 × 6137 | [V] |
 | background | `#FFFFFF`, the modal colour at 13.0% of the image | [V] |
 | projection | cylindrical equirectangular, scaled so a degree of latitude and a degree of longitude cover equal ground at the box centre — *not* Mercator. The parenthetical *"Maybe I should have used Mercator instead"* is [Q]; the projection description itself is [C], inferred from the bounds file's Δlat/Δlon ratio | [Q]+[C] |
-| bounds | his own precomputed 15-mile city box; Δlat = 0.217705° exactly, Δlon = Δlat / cos(lat) | [F] read from his bounds file |
+| bounds | Fischer's own precomputed 15-mile city box; Δlat = 0.217705° exactly, Δlon = Δlat / cos(lat) | [F] read from Fischer's bounds file |
 | Hanoi box | `20.926386 105.728233 21.144091 105.961466` → 24.235 km N-S × 24.233 km E-W (ratio 0.99993), 3.949 m/px | [C] arithmetic on that file |
 
 Source of the Hanoi box: `flickr-picasa/124` in
-[github.com/e-n-f/bounds](https://github.com/e-n-f/bounds) (e-n-f = Eric
+[github.com/e-n-f/bounds](https://github.com/e-n-f/bounds) (e-n-f = Erica
 Fischer), which contains those four numbers verbatim next to
 `Hanoi, Ha Noi, Vietnam`; that repository's README states the `flickr-picasa`
 boxes are the ones used for the Geotaggers' World Atlas and Locals and Tourists
-sets. He computed a Hanoi box but never published a Hanoi map.
+sets. Fischer computed a Hanoi box but never published a Hanoi map.
 
 ## Colours [V]
 
@@ -157,7 +157,7 @@ Do not cite it.
 - red **tourists** — appear to be a local of a different city, here under a month
 - yellow **unknown** — have not photographed anywhere over a span of a month
 
-Mechanism: he precomputed a global set of 15-mile city boxes (~3015 files in
+Mechanism: Fischer precomputed a global set of 15-mile city boxes (~3015 files in
 the published bounds repository — a file count, not a quotation) and, per photographer
 per box, took the date span; span ≥ one month makes them a resident of that box.
 "Unknown" is global, not per-city. Undocumented: the threshold in days, and any
@@ -167,10 +167,10 @@ were excluded from the residency computation but still plotted.
 ## Still unresolved
 
 - The exact distance/speed caps on connecting lines in the 2010 renderer. The
-  15,000 ft and 85 mph values come from his 2015 code. [C]
+  15,000 ft and 85 mph values come from Fischer's 2015 code. [C]
 - The line-opacity falloff *law*. Sub-unity opacity is measured; whether it
   varies with segment length, and how, is not established. We use a constant.
 - Whether points are drawn over lines, or fully interleaved with them. [C]
-- The exact OSM feature selection in his basemap.
+- The exact OSM feature selection in the original basemap.
 
-The 2010 renderer's source was never published; he has said so himself.
+The 2010 renderer's source was never published, as Fischer has said.
