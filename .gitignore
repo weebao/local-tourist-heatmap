@@ -16,3 +16,7 @@ __pycache__/
 *.pyc
 data/reloc/piles/
 data/reloc/sheets/
+data/multi/*.log
+data/multi/*.orig
+data/multi/*.superseded
+data/multi/*.merged
