@@ -7,6 +7,7 @@ things that would ruin the map: mix two platforms' photographers into one
 person, let a randomised iNaturalist coordinate onto the canvas, or count a
 republished photograph twice.
 """
+import csv
 import os
 import shutil
 import sys
@@ -334,7 +335,21 @@ for k in ("gbif", "panoramax", "osmnotes", "openaerialmap"):
     check(f"{k} readable but off", multi.SOURCES[k].default_on, False)
     check(f"{k} records why", bool(multi.SOURCES[k].excluded_because), True)
 check("the default set", sorted(multi.enabled_sources()),
-      ["commons", "commonsdump", "flickr", "inat", "mapillary", "wikidata"])
+      ["commons", "commonsdump", "flickr", "inat", "mapillary"])
+# Wikidata was switched off after an audit found the documentation describing it
+# as excluded while the code still rendered it. Assert both halves so the flag
+# and the prose cannot drift apart again.
+check("wikidata is off by default", multi.SOURCES["wikidata"].default_on, False)
+check("wikidata records why it is off",
+      bool(multi.SOURCES["wikidata"].excluded_because), True)
+# MERGE.md states that the Commons routes share one namespace while no two
+# platforms ever do. Nothing asserted it before.
+check("commonsdump shares the commons namespace",
+      multi.namespace_of("commonsdump"), "commons")
+check("wikidata shares the commons namespace",
+      multi.namespace_of("wikidata"), "commons")
+check("flickr and inat namespaces are distinct",
+      len({multi.namespace_of(k) for k in ("flickr", "inat", "commons")}), 3)
 
 print("\nsource keys are canonicalised and colliding harvests resolved")
 check("inaturalist is inat", multi.canonical_source("inaturalist"), "inat")
@@ -456,6 +471,39 @@ check("every row carries a date kind",
           for r in m["rows"]), True)
 check("no obscured row reached the map set",
       any(r.get("obscured") for r in m["rows"]), False)
+# The assertion above reads a flag that is unset by construction on a
+# history-shaped row, so on its own it was vacuous on the one path that does
+# damage: a randomised coordinate in the HISTORY is never rendered but is used
+# as evidence of presence, and can invent a home city. An audit found 229 such
+# rows doing exactly that. So check the residency inputs too, and check the
+# history files carry the geoprivacy column that makes the check possible.
+check("no obscured row reached the residency set",
+      any(r.get("obscured") for r in m["residency_rows"]), False)
+check("no obscured row is in the loaded history",
+      any(r.get("obscured") for r in m["history"]), False)
+for _src in ("commons", "inat"):
+    _p = os.path.join(multi.MULTI_DIR, f"{_src}_history.tsv")
+    if os.path.exists(_p):
+        _rows, _rep = multi.read_table(_p, _src, "history")
+        check(f"{_src} history exposes a geoprivacy column",
+              "obscured" in (_rep.get("columns") or {}), True)
+        # Test the DECLARED geoprivacy, not the combined `obscured` flag: the
+        # flag is also set by the decimal-count precision backstop, so a
+        # coordinate written as "22.2" trips it legitimately. Those are dropped
+        # before residency (asserted above); what must never appear is a
+        # coordinate iNaturalist itself randomised.
+        _declared = [r for r in _rows
+                     if multi._is_obscured(r.get("raw_obscured", ""))]
+        with open(_p, newline="") as _f:
+            _rd = csv.reader(_f, delimiter="\t")
+            _hdr = next(_rd, None) or []
+            _gi = _hdr.index("geoprivacy") if "geoprivacy" in _hdr else None
+            _bad = 0
+            if _gi is not None:
+                for _row in _rd:
+                    if len(_row) > _gi and multi._is_obscured(_row[_gi]):
+                        _bad += 1
+        check(f"{_src} history declares no obscured coordinate", _bad, 0)
 check("the map set is a subset of the residency set",
       {id(r) for r in m["map_rows_uncapped"]} <= {id(r) for r in m["residency_rows"]},
       True)

@@ -54,12 +54,18 @@ mislabels them a local. The window still admits 48 rows predating Flickr's
 February 2004 launch. One further photo is dropped because the vision pass
 placed it in the Hạ Long / Cát Bà karst, about 150 km away.
 
-Two sources were considered and rejected. The Flickr API needs a key issued only
-to a logged-in account. Wikimedia Commons carries no per-photographer worldwide
-geotagged history, so the tourist test cannot be run on it at all; it is also
-concentrated, with a Commons geosearch returning 15,431 Hanoi files from 373
-uploaders and the top three accounting for 48%, though concentration alone could
-have been capped.
+The Flickr API was considered and rejected: it needs a key issued only to a
+logged-in account.
+
+Wikimedia Commons was rejected here too, on the grounds that it carries no
+per-photographer worldwide geotagged history and so cannot support the tourist
+test. That turned out to be wrong, and the multi-source work below
+overturned it: a per-uploader history is queryable through `allimages` plus
+`prop=coordinates`, and harvesting it yielded 124,165 rows over 425 uploaders.
+Commons is still not in this map, because this map is the single-source
+reproduction; it is in the merged variant. The concentration objection is real
+but was never the disqualifier: 17,568 Hanoi files from 432 uploaders with the
+top three at 46%, and concentration can be capped.
 
 ### What the worldwide history does
 
@@ -276,12 +282,24 @@ cannot be computed at all, so a source that lacks it adds uncoloured dots to a
 map whose only content is the colour. GBIF, Panoramax, Wikidata, OpenAerialMap
 and OSM notes fail it, and MERGE.md records the measurement that excluded each.
 
-The merged map holds 42,499 points from 2,642 photographers against this map's
-20,274 from 817. Its most interesting result is that the colour balance
-inverts: the Flickr slice is 51% visitor photographs, the merge is 59% local.
-That is a property of who uses each platform rather than anything about Hanoi,
-since Commons uploaders and iNaturalist observers documenting a city tend to
-live in it. Read it as a statement about the sources.
+The merged map holds 42,299 points from 2,584 photographers against this map's
+20,274 from 817, and the colour balance inverts: the Flickr slice is 51%
+visitor photographs, the merge is 59% local.
+
+That inversion is narrower than it looks, and an audit corrected an earlier
+version of this paragraph. It is entirely Wikimedia Commons, whose drawn
+points are 83.7% local. Remove Commons and the merge is 46.2% local against
+47.2% tourist, which is the visitor-leaning baseline again. iNaturalist is not
+more local: at 46.4% it is indistinguishable from Flickr's 46.2%, by
+photographer it is the least local of the three at 12.7%, and removing it
+raises the merged local share rather than lowering it.
+
+Date coverage explains much of the remainder. Restricting every source to the
+years YFCC actually covers gives 50.6% local instead of 59%, cutting the
+local-minus-tourist margin from +25.3 points to +8.5. The 30-day span rule pays
+for a long baseline, and Commons has one where a corpus ending in 2014 cannot.
+So read it as a statement about Commons and about date coverage, not about
+Hanoi. MERGE.md carries the per-source table.
 
 Reddit, Instagram, TikTok and X were deliberately not crawled. None exposes a
 geotag the photographer attached, and deriving the colour would mean inferring

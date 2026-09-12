@@ -190,10 +190,23 @@ SOURCES = {
         "img_timestamp is upload time, not capture", namespace="commons"),
     # Wikidata items whose images are Commons files: a third route to the same
     # platform, so the same uploader namespace.
+    # Switched off after an audit: MERGE.md and the README both described
+    # Wikidata as excluded for having no usable contributor identity, while
+    # default_on=True kept rendering it - 200 points and 58 photographers who
+    # exist only here, inflating the photographer count. The identity problem
+    # is real: the `user` column is whatever the item credits, so values like
+    # "Northern Vietnam" become "photographers". It is also 95% local, which
+    # skews the local/visitor balance the merge is used to discuss. The docs
+    # were right; the flag was wrong.
     "wikidata": SourceSpec(
         "wikidata", "Wikidata (images on Commons)", TAKEN, None, 100.0,
         "coordinates are DMS-derived and no accuracy is stated",
-        namespace="commons"),
+        namespace="commons", default_on=False,
+        excluded_because=(
+            "the `user` column is whatever the Wikidata item credits, which is "
+            "often not a person at all (e.g. 'Northern Vietnam'), so it cannot "
+            "anchor a per-photographer residency test; 58 of the drawn "
+            "photographers existed only from these rows")),
     "inat": SourceSpec(
         "inat", "iNaturalist", OBSERVED, "metres", 5.0,
         "observed_on is a date; positional_accuracy in metres, blank on "

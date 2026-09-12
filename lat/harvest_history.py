@@ -50,12 +50,20 @@ def done_users(path):
 
 
 def open_appender(path):
-    """Append, writing a header only if the file is new."""
+    """Append, writing a header only if the file is new.
+
+    `geoprivacy` is written explicitly even though both fetchers already
+    refuse obscured and private coordinates. Without the column the merge's
+    reader has nothing to check, rates a history row at the finest possible
+    precision, and an obscured coordinate randomised over ~22 km becomes
+    evidence of presence in a city the photographer may never have visited.
+    An audit found 229 such rows from a pre-filter harvest doing exactly that.
+    """
     new = not os.path.exists(path) or os.path.getsize(path) == 0
     f = open(path, "a", newline="")
     w = csv.writer(f, delimiter="\t", lineterminator="\n")
     if new:
-        w.writerow(["user", "date", "lon", "lat"])
+        w.writerow(["user", "date", "lon", "lat", "geoprivacy"])
         f.flush()
     return f, w
 
@@ -227,7 +235,11 @@ def main(source, limit=None, max_pages=None, workers=1, pause=None):
             if note:
                 fails[note] += 1
             for date, lon, lat in rows:
-                w.writerow([u, date, lon, lat])
+                # Everything these fetchers emit has already passed the
+                # obscured/private refusal, so the flag is "open" by
+                # construction; it is recorded so the merge can verify rather
+                # than assume.
+                w.writerow([u, date, lon, lat, "open"])
             f.flush()
             tot += len(rows)
             if i % 25 == 0 or i == len(todo):

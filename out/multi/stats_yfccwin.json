@@ -41,7 +41,7 @@
    "source": "inat",
    "present": true,
    "rows": 19774,
-   "history_rows": 411710,
+   "history_rows": 413302,
    "date_kind": "observed",
    "columns": {
     "date": "date",
@@ -85,26 +85,17 @@
   {
    "source": "wikidata",
    "present": true,
-   "rows": 300,
+   "rows": 0,
    "history_rows": 0,
-   "date_kind": "taken",
-   "columns": {
-    "artist": "url",
-    "date": "date",
-    "date_kind": "date_kind",
-    "id": "id",
-    "lat": "lat",
-    "lon": "lon",
-    "precision": "accuracy",
-    "user": "user"
-   },
+   "date_kind": null,
+   "columns": null,
    "error": null
   }
  ],
  "source_docs": [
   "inat_report.md"
  ],
- "rows_loaded": 61271,
+ "rows_loaded": 60971,
  "window": [
   "2004-01-01T00:00:00",
   "2015-06-01T00:00:00"
@@ -112,14 +103,14 @@
  "window_dropped": {
   "flickr": 5181,
   "commons": 64536,
-  "inat": 395000,
-  "wikidata": 112
+  "inat": 396546
  },
  "sources_present_but_excluded": {
   "gbif": "48.8% of harvested rows state no uncertainty and the stated ones have a p90 of 16.4 km (1 sample row at 7,296 m is 1,846 px of slop on this map); `recordedBy` is free text, not a stable photographer id, so it cannot anchor a residency test; 863 rows are 1880s museum specimens; and 3,759 coordinate+day keys are shared with the iNaturalist harvest, which we already hold at better fidelity",
   "openaerialmap": "aerial imagery has no photographer standing anywhere: the coordinate is a scene centroid under an aircraft or satellite, `accuracy` is a ground sample distance in metres per pixel, and `acquisition_start` is a flight window. 2 rows in the box",
   "osmnotes": "an OSM note is not a photograph. Its position is where the mapper says something needs fixing, which is routinely filed from aerial imagery at a desk, and its `created` date is a filing time. 2,334 rows from 1,185 accounts is good diversity, so it is one flag away (--sources osmnotes) if the map is ever redefined as 'people who recorded something here'",
-  "panoramax": "320 rows in the drawn box from exactly 1 contributor, whose 34,327-row history file is that one person's global track. A locals-vs-tourists distinction cannot be drawn from a single identity at any coordinate quality"
+  "panoramax": "320 rows in the drawn box from exactly 1 contributor, whose 34,327-row history file is that one person's global track. A locals-vs-tourists distinction cannot be drawn from a single identity at any coordinate quality",
+  "wikidata": "the `user` column is whatever the Wikidata item credits, which is often not a person at all (e.g. 'Northern Vietnam'), so it cannot anchor a per-photographer residency test; 58 of the drawn photographers existed only from these rows"
  },
  "harvester_exclusions_recheck": {
   "inat": {
@@ -155,31 +146,30 @@
   "taken"
  ],
  "photographers": {
-  "local": 185,
-  "unknown": 320,
-  "tourist": 700
+  "unknown": 270,
+  "local": 177,
+  "tourist": 698
  },
- "photographers_untestable": 10,
+ "photographers_untestable": 1,
  "photographers_on_map": {
-  "local": 169,
-  "tourist": 505,
-  "unknown": 201
+  "local": 161,
+  "tourist": 506,
+  "unknown": 166
  },
  "cap": null,
  "cap_removed": {},
  "cap_sweep": [
   {
    "cap": null,
-   "points": 22003,
-   "photographers": 875,
+   "points": 21896,
+   "photographers": 833,
    "by_source": {
     "flickr": 18186,
     "commons": 3594,
-    "inat": 116,
-    "wikidata": 107
+    "inat": 116
    },
-   "top3_share": 0.163,
-   "top5_share": 0.2267,
+   "top3_share": 0.1638,
+   "top5_share": 0.2278,
    "top5": [
     [
      "flickr:77987497@N00",
@@ -205,16 +195,15 @@
   },
   {
    "cap": 2000,
-   "points": 22003,
-   "photographers": 875,
+   "points": 21896,
+   "photographers": 833,
    "by_source": {
     "flickr": 18186,
     "commons": 3594,
-    "wikidata": 107,
     "inat": 116
    },
-   "top3_share": 0.163,
-   "top5_share": 0.2267,
+   "top3_share": 0.1638,
+   "top5_share": 0.2278,
    "top5": [
     [
      "flickr:77987497@N00",
@@ -240,16 +229,15 @@
   },
   {
    "cap": 1000,
-   "points": 21302,
-   "photographers": 875,
+   "points": 21195,
+   "photographers": 833,
    "by_source": {
     "flickr": 17546,
     "commons": 3533,
-    "wikidata": 107,
     "inat": 116
    },
-   "top3_share": 0.1354,
-   "top5_share": 0.2012,
+   "top3_share": 0.1361,
+   "top5_share": 0.2022,
    "top5": [
     [
      "flickr:77987497@N00",
@@ -275,16 +263,15 @@
   },
   {
    "cap": 500,
-   "points": 19407,
-   "photographers": 875,
+   "points": 19300,
+   "photographers": 833,
    "by_source": {
     "flickr": 16328,
     "commons": 2856,
-    "wikidata": 107,
     "inat": 116
    },
-   "top3_share": 0.0773,
-   "top5_share": 0.1288,
+   "top3_share": 0.0777,
+   "top5_share": 0.1295,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -310,16 +297,15 @@
   },
   {
    "cap": 200,
-   "points": 16304,
-   "photographers": 875,
+   "points": 16201,
+   "photographers": 833,
    "by_source": {
     "flickr": 14224,
-    "commons": 1858,
-    "wikidata": 106,
+    "commons": 1861,
     "inat": 116
    },
-   "top3_share": 0.0368,
-   "top5_share": 0.0613,
+   "top3_share": 0.037,
+   "top5_share": 0.0617,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -345,16 +331,15 @@
   },
   {
    "cap": 100,
-   "points": 13728,
-   "photographers": 875,
+   "points": 13629,
+   "photographers": 833,
    "by_source": {
     "flickr": 12239,
-    "commons": 1269,
-    "wikidata": 104,
+    "commons": 1274,
     "inat": 116
    },
-   "top3_share": 0.0219,
-   "top5_share": 0.0364,
+   "top3_share": 0.022,
+   "top5_share": 0.0367,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -380,16 +365,15 @@
   },
   {
    "cap": 50,
-   "points": 11136,
-   "photographers": 875,
+   "points": 11039,
+   "photographers": 833,
    "by_source": {
     "flickr": 10016,
-    "commons": 901,
-    "wikidata": 103,
+    "commons": 907,
     "inat": 116
    },
-   "top3_share": 0.0135,
-   "top5_share": 0.0224,
+   "top3_share": 0.0136,
+   "top5_share": 0.0226,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -414,11 +398,11 @@
    ]
   }
  ],
- "points_total": 22003,
+ "points_total": 21896,
  "points_by_class": {
-  "local": 11146,
+  "local": 11084,
   "tourist": 9219,
-  "unknown": 1638
+  "unknown": 1593
  },
  "connecting_lines": 2618,
  "per_source": {
@@ -436,9 +420,9 @@
   "commons": {
    "points": 4178,
    "photographers": 122,
-   "local": 3135,
-   "tourist": 302,
-   "unknown": 741,
+   "local": 3124,
+   "tourist": 308,
+   "unknown": 746,
    "coarse": 28,
    "date_kinds": {
     "taken": 4162,
@@ -455,24 +439,11 @@
    "date_kinds": {
     "observed": 431
    }
-  },
-  "wikidata": {
-   "points": 188,
-   "photographers": 88,
-   "local": 93,
-   "tourist": 14,
-   "unknown": 81,
-   "coarse": 188,
-   "date_kinds": {
-    "taken": 170,
-    "upload": 17,
-    "unstated": 1
-   }
   }
  },
  "per_source_renders": {},
  "shared_pins": {
-  "coords": 37,
-  "photos": 1381
+  "coords": 35,
+  "photos": 1357
  }
 }
