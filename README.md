@@ -61,7 +61,7 @@ Wikimedia Commons was rejected here too, on the grounds that it carries no
 per-photographer worldwide geotagged history and so cannot support the tourist
 test. That turned out to be wrong, and the multi-source work below
 overturned it: a per-uploader history is queryable through `allimages` plus
-`prop=coordinates`, and harvesting it yielded 124,165 rows over 425 uploaders.
+`prop=coordinates`, and harvesting it yielded 124,095 rows over 425 uploaders.
 Commons is still not in this map, because this map is the single-source
 reproduction; it is in the merged variant. The concentration objection is real
 but was never the disqualifier: 17,568 Hanoi files from 432 uploaders with the

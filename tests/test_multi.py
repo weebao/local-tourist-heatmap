@@ -318,7 +318,25 @@ check("(and capping the residency input WOULD change labels, hence the split)",
 sweep = multi.cap_sweep(big, (None, 100, 10))
 check("sweep reports every cap", [s["cap"] for s in sweep], [None, 100, 10])
 check("sweep point counts fall", [s["points"] for s in sweep], [1005, 105, 15])
-close("sweep reports concentration", sweep[0]["top3_share"], 1.0, 0.001)
+# With only 2 photographers a top-3 share is 1.0 by construction, which
+# asserted nothing about the statistic every headline concentration figure
+# rests on. Use a fixture where the answer is known and not degenerate: four
+# photographers with 40/30/20/10 points, so the top three hold 90%.
+conc = ([{"user": "commons:a", "lon": 105.85, "lat": 21.03, "date": D0,
+          "date_kind": multi.TAKEN, "src": "commons", "precision_m": 10.0,
+          "coarse": False, "obscured": False, "id": f"a{i}"} for i in range(40)]
+        + [{"user": "commons:b", "lon": 105.85, "lat": 21.03, "date": D0,
+            "date_kind": multi.TAKEN, "src": "commons", "precision_m": 10.0,
+            "coarse": False, "obscured": False, "id": f"b{i}"} for i in range(30)]
+        + [{"user": "commons:c", "lon": 105.85, "lat": 21.03, "date": D0,
+            "date_kind": multi.TAKEN, "src": "commons", "precision_m": 10.0,
+            "coarse": False, "obscured": False, "id": f"c{i}"} for i in range(20)]
+        + [{"user": "commons:d", "lon": 105.85, "lat": 21.03, "date": D0,
+            "date_kind": multi.TAKEN, "src": "commons", "precision_m": 10.0,
+            "coarse": False, "obscured": False, "id": f"d{i}"} for i in range(10)])
+csweep = multi.cap_sweep(conc, (None, 20))
+close("top-3 share is measured, not degenerate", csweep[0]["top3_share"], 0.90, 0.001)
+close("capping lowers the top-3 share", csweep[1]["top3_share"], 0.8571, 0.001)
 
 # ------------------------------------------------------------ readers
 print("\ndate window")
@@ -492,8 +510,6 @@ for _src in ("commons", "inat"):
         # coordinate written as "22.2" trips it legitimately. Those are dropped
         # before residency (asserted above); what must never appear is a
         # coordinate iNaturalist itself randomised.
-        _declared = [r for r in _rows
-                     if multi._is_obscured(r.get("raw_obscured", ""))]
         with open(_p, newline="") as _f:
             _rd = csv.reader(_f, delimiter="\t")
             _hdr = next(_rd, None) or []

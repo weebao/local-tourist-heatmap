@@ -41,7 +41,7 @@
    "source": "inat",
    "present": true,
    "rows": 19774,
-   "history_rows": 413302,
+   "history_rows": 410905,
    "date_kind": "observed",
    "columns": {
     "date": "date",
@@ -103,7 +103,7 @@
  "window_dropped": {
   "flickr": 5181,
   "commons": 64536,
-  "inat": 396546
+  "inat": 393981
  },
  "sources_present_but_excluded": {
   "gbif": "48.8% of harvested rows state no uncertainty and the stated ones have a p90 of 16.4 km (1 sample row at 7,296 m is 1,846 px of slop on this map); `recordedBy` is free text, not a stable photographer id, so it cannot anchor a residency test; 863 rows are 1880s museum specimens; and 3,759 coordinate+day keys are shared with the iNaturalist harvest, which we already hold at better fidelity",
@@ -146,9 +146,9 @@
   "taken"
  ],
  "photographers": {
-  "unknown": 270,
+  "tourist": 698,
   "local": 177,
-  "tourist": 698
+  "unknown": 270
  },
  "photographers_untestable": 1,
  "photographers_on_map": {

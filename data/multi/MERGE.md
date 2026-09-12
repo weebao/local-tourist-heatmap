@@ -38,8 +38,8 @@ the Commons SQL dumps *uploaded*. Upload dates are the dangerous one: a
 photographer who uploads a five-year backlog in a week shows a one-week span
 and reads as a visitor, while one who drip-feeds the same trip over years looks
 resident. `RESIDENCY_DATE_KINDS` restricts which kinds enter the residency
-test; all kinds are still plotted. The Commons API harvest is 17,166 capture
-dates against 400 upload, so including it costs about 2%.
+test; all kinds are still plotted. As harvested, Commons is 17,168 capture dates against 400 upload, so including
+it costs about 2%.
 
 **Precision is normalised to metres.** Flickr's 1–16 ordinal, iNaturalist's
 `positional_accuracy` and the rest land on one scale, and `precision_level` is
@@ -56,11 +56,25 @@ observer may never have visited. The Hanoi tables were always filtered. The
 reader had no flag to check, rated every history row at the finest possible
 iNaturalist fix, and an audit found 229 randomised coordinates from a
 pre-filter harvest being used as evidence of presence, flipping one
-photographer red. Fixed three ways: the 163 affected observers were stripped
-and re-harvested through the filtering fetcher, the history writer now records
-an explicit `geoprivacy` column so the merge verifies rather than assumes, and
-a cross-check against the live API now finds zero overlap between the history
-and those observers' obscured observations.
+photographer red. Fixed three ways: the affected users were stripped and the 154 of them that
+are actually Hanoi observers re-harvested through the filtering fetcher, the
+history writer now records an explicit `geoprivacy` column, and a cross-check
+against the live API finds zero overlap between the history and those
+observers' obscured observations.
+
+What the column does and does not buy is worth stating precisely, because an
+audit pushed back on an earlier wording here. Every value in it is the literal
+string `open`, written by the fetcher for rows it has already refused to
+obscure, so the column records the fetcher's assurance rather than the API's
+answer per row. What it genuinely guarantees is that the *column exists*, so
+the merge's reader resolves an `obscured` field instead of silently rating a
+history row at the finest possible precision. Column absence was the actual
+failure, so that is the useful guarantee.
+
+Two further legacy files were found and removed in the same pass: one carried 3
+observers with 3,434 rows from a deep-paging harvester the code no longer
+contains, retro-stamped `open` when the column was added. Those 3 were
+re-harvested too, and no legacy file remains on disk.
 
 **Per-user capping is exposed, and the measurement argued against using it.**
 Commons alone is concentrated: 432 uploaders in the Hanoi box with the top three
@@ -160,10 +174,10 @@ coverage, not as a correction to the original map.
 ## Known gaps
 
 - **LOCAL labels rest on very few days.** The span rule asks only that a
-  photographer's earliest and latest Hanoi-box dates be 30 days apart. Commons
-  "locals" are declared resident off a median of about 4 distinct photo-days
-  spread over roughly three years, and a substantial minority off two days
-  alone. Two photo-days three years apart is LOCAL under this rule. That is
+  photographer's earliest and latest Hanoi-box dates be 30 days apart. Of the
+  81 Commons photographers labelled local, the median has 4 distinct photo-days
+  spread over 638 days, and 28% have two distinct days or fewer. Two photo-days
+  twenty months apart is LOCAL under this rule. That is
   Fischer's rule, not a bug introduced here, but it bites harder on a source
   with a decade-long baseline than on one capped at 2014.
 - **History is truncated per photographer, and the bias is not one-directional
@@ -172,19 +186,20 @@ coverage, not as a correction to the original map.
   the *foreign-box* route the argument holds: removing history can only shrink
   the best foreign span, so a false TOURIST cannot be gained that way. But
   `classify_users` decides LOCAL first, on the span of dates inside the Hanoi
-  box, and history rows also supply Hanoi-box dates the Hanoi harvest lacks. An
-  audit found 12 LOCAL labels that exist only because of history-supplied
-  dates; revoke those and the photographer falls into the foreign-box search
-  and can come out red. A truncation experiment produced 81 tourist→unknown, 2
-  local→unknown and **1 local→tourist**. So truncation can also manufacture a
-  false tourist, just rarely.
+  box, and history rows also supply Hanoi-box dates the Hanoi harvest lacks.
+  Measured on the current build, 11 LOCAL labels exist only because of
+  history-supplied dates; revoke those and the photographer falls into the
+  foreign-box search and can come out red. An audit's truncation experiment
+  produced 83 tourist→unknown, 2 local→unknown and 1 local→tourist. So
+  truncation can also manufacture a false tourist, just rarely.
   On the other hand the iNaturalist extremes sample is span-*preserving*: span
   is max minus min, the extremes are exactly what is retained, and adding
   middle rows can never widen a box's span. It cannot manufacture a long span.
   It does mean a truncated observer's residency rests on two endpoints with no
   corroboration of continuous presence.
 - **7 Commons uploaders have no history at all** after transport failures
-  across the retried runs; every iNaturalist observer has some.
+  across the retried runs; every one of the 2,106 iNaturalist observers has
+  some.
 - **The Commons SQL-dump cross-check was never completed.** It was meant to give
   an independent count of geotagged namespace-6 files in the Hanoi box, to test
   whether the API harvest's quadtree geosearch was complete. That completeness
@@ -196,9 +211,10 @@ coverage, not as a correction to the original map.
   duplicates were all caught by the coordinate-plus-day key instead. For scale,
   1,690 Commons rows carry a 2.0-era licence, the Flickr-import signature, so
   up to about 1,100 possible transfers are unvalidated.
-- **`data/multi/inat_history.tsv` is not in the repository** (20 MB), nor the
+- **`data/multi/inat_history.tsv` is not in the repository** (21 MB), nor the
   histories of excluded sources. Regenerate with
   `PYTHONPATH=. .venv/bin/python lat/harvest_history.py inat --workers 3 --pause 3.0`,
   about 90 minutes, holding iNaturalist's requested 60 requests/minute in
-  aggregate. History files now carry a `geoprivacy` column; a regenerated file
-  is equivalent to the one the committed stats were computed from.
+  aggregate. A regenerated file is method-equivalent but not row-equivalent:
+  the extremes sample moves as observers add records, so the exact row count
+  the committed stats were computed from is not re-derivable.

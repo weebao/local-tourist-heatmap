@@ -41,7 +41,7 @@
    "source": "inat",
    "present": true,
    "rows": 19774,
-   "history_rows": 413302,
+   "history_rows": 410905,
    "date_kind": "observed",
    "columns": {
     "date": "date",
@@ -141,8 +141,8 @@
  ],
  "photographers": {
   "tourist": 1995,
-  "local": 426,
-  "unknown": 928
+  "unknown": 928,
+  "local": 426
  },
  "photographers_untestable": 2,
  "photographers_on_map": {
