@@ -230,6 +230,9 @@ pipeline cannot discredit coordinates it created itself.
     lat/classify.py         locals / tourists / unknown
     lat/fischer.py          the 6137px renderer
     lat/build_fischer.py    end-to-end build  <- entry point
+    lat/multi.py            multi-source merge (see data/multi/MERGE.md)
+    lat/build_multi.py      renders the merged map to out/multi/
+    lat/harvest_history.py  backfills per-photographer worldwide history
     lat/proj.py             projections
     lat/relocate_fetch.py   pull pile images, build contact sheets
     lat/pile_sheets.py      per-pile contact sheets for adjudication
@@ -238,6 +241,7 @@ pipeline cannot discredit coordinates it created itself.
     lat/basemap.py          Overpass -> raster    (earlier density renderer)
     lat/render.py           density/ink renderer  (exploratory, superseded)
     tests/test_classify.py  34 assertions; run with PYTHONPATH=.
+    tests/test_multi.py     merge-layer assertions
     tools/measure_style.py  reproduces the style measurements
     geoguessr-prompt.txt    the photo-geolocation protocol the vision pass follows
     data/reloc/             vision JSON, overrides, geocode cache (the contact
@@ -254,6 +258,36 @@ quoted here and in STYLE.md have no shipped implementation and are reported from
 this project's style audit: the ring-matched basemap ink ratio, London's
 accumulation strata, and the dot-size mode. They are flagged where they appear,
 and the mask-sensitive ones carry their spread.
+
+## A multi-source variant
+
+Everything above is the faithful reproduction, built from one source. There is
+also an experiment in [`data/multi/MERGE.md`](data/multi/MERGE.md) asking what
+the same map looks like when every other reachable source of geotagged
+photographs is added. It renders to `out/multi/` and never touches the map
+above.
+
+    .venv/bin/python lat/build_multi.py --size 6137 --per-source
+
+Wikimedia Commons and iNaturalist both pass the test that matters, which is not
+"has photos of Hanoi" but "has a stable photographer id, a date, a coordinate,
+and a queryable worldwide history". Without that history the residency colours
+cannot be computed at all, so a source that lacks it adds uncoloured dots to a
+map whose only content is the colour. GBIF, Panoramax, Wikidata, OpenAerialMap
+and OSM notes fail it, and MERGE.md records the measurement that excluded each.
+
+The merged map holds 42,499 points from 2,642 photographers against this map's
+20,274 from 817. Its most interesting result is that the colour balance
+inverts: the Flickr slice is 51% visitor photographs, the merge is 59% local.
+That is a property of who uses each platform rather than anything about Hanoi,
+since Commons uploaders and iNaturalist observers documenting a city tend to
+live in it. Read it as a statement about the sources.
+
+Reddit, Instagram, TikTok and X were deliberately not crawled. None exposes a
+geotag the photographer attached, and deriving the colour would mean inferring
+individual accounts' home cities from their posting history, which is profiling
+of private individuals. Every source used here relies on location data the
+photographer chose to attach to their own photograph.
 
 ## Limitations
 

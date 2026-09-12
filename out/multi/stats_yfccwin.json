@@ -105,8 +105,16 @@
   "inat_report.md"
  ],
  "rows_loaded": 61271,
- "window": null,
- "window_dropped": {},
+ "window": [
+  "2004-01-01T00:00:00",
+  "2015-06-01T00:00:00"
+ ],
+ "window_dropped": {
+  "flickr": 5181,
+  "commons": 64536,
+  "inat": 395000,
+  "wikidata": 112
+ },
  "sources_present_but_excluded": {
   "gbif": "48.8% of harvested rows state no uncertainty and the stated ones have a p90 of 16.4 km (1 sample row at 7,296 m is 1,846 px of slop on this map); `recordedBy` is free text, not a stable photographer id, so it cannot anchor a residency test; 863 rows are 1880s museum specimens; and 3,759 coordinate+day keys are shared with the iNaturalist harvest, which we already hold at better fidelity",
   "openaerialmap": "aerial imagery has no photographer standing anywhere: the coordinate is a scene centroid under an aircraft or satellite, `accuracy` is a ground sample distance in metres per pixel, and `acquisition_start` is a flight window. 2 rows in the box",
@@ -127,157 +135,156 @@
   }
  },
  "obscured_dropped": {
-  "inat/obscured": 960
+  "inat/obscured": 75
  },
  "precision_dropped": {
-  "flickr/too_coarse": 2703,
-  "commons/too_coarse": 85,
-  "inat/too_coarse": 548
+  "flickr/too_coarse": 2701,
+  "commons/too_coarse": 41,
+  "inat/too_coarse": 67
  },
  "precision_drop_metres": 5000.0,
  "precision_coarse_metres": 1000.0,
  "dedup_removed_by_pair": {
-  "flickr->commons": 555,
-  "inat->commons": 1
+  "flickr->commons": 555
  },
  "dedup_by_key": {
-  "coord_day": 556
+  "coord_day": 555
  },
  "residency_date_kinds": [
   "observed",
   "taken"
  ],
  "photographers": {
-  "unknown": 1010,
-  "tourist": 1983,
-  "local": 438
+  "local": 185,
+  "unknown": 320,
+  "tourist": 700
  },
  "photographers_untestable": 10,
  "photographers_on_map": {
-  "local": 418,
-  "tourist": 1506,
-  "unknown": 718
+  "local": 169,
+  "tourist": 505,
+  "unknown": 201
  },
  "cap": null,
  "cap_removed": {},
  "cap_sweep": [
   {
    "cap": null,
-   "points": 42499,
-   "photographers": 2642,
+   "points": 22003,
+   "photographers": 875,
    "by_source": {
-    "flickr": 18230,
-    "commons": 14158,
-    "inat": 9911,
-    "wikidata": 200
+    "flickr": 18186,
+    "commons": 3594,
+    "inat": 116,
+    "wikidata": 107
    },
-   "top3_share": 0.1687,
-   "top5_share": 0.2233,
+   "top3_share": 0.163,
+   "top5_share": 0.2267,
    "top5": [
-    [
-     "commons:Phan Minh Tu\u1ea5n",
-     2782
-    ],
-    [
-     "commons:Ltn12345",
-     2748
-    ],
     [
      "flickr:77987497@N00",
      1640
     ],
     [
-     "commons:Vuong Tri Binh",
-     1252
+     "commons:Orizan",
+     1061
     ],
     [
-     "commons:Orizan",
-     1068
+     "flickr:14261684@N08",
+     885
+    ],
+    [
+     "flickr:71138480@N00",
+     772
+    ],
+    [
+     "commons:Vuong Tri Binh",
+     629
     ]
    ]
   },
   {
    "cap": 2000,
-   "points": 40969,
-   "photographers": 2642,
+   "points": 22003,
+   "photographers": 875,
    "by_source": {
-    "flickr": 18230,
-    "commons": 12632,
-    "wikidata": 196,
-    "inat": 9911
+    "flickr": 18186,
+    "commons": 3594,
+    "wikidata": 107,
+    "inat": 116
    },
-   "top3_share": 0.1377,
-   "top5_share": 0.1943,
+   "top3_share": 0.163,
+   "top5_share": 0.2267,
    "top5": [
-    [
-     "commons:Ltn12345",
-     2000
-    ],
-    [
-     "commons:Phan Minh Tu\u1ea5n",
-     2000
-    ],
     [
      "flickr:77987497@N00",
      1640
     ],
     [
-     "commons:Vuong Tri Binh",
-     1252
+     "commons:Orizan",
+     1061
     ],
     [
-     "commons:Orizan",
-     1068
+     "flickr:14261684@N08",
+     885
+    ],
+    [
+     "flickr:71138480@N00",
+     772
+    ],
+    [
+     "commons:Vuong Tri Binh",
+     629
     ]
    ]
   },
   {
    "cap": 1000,
-   "points": 38009,
-   "photographers": 2642,
+   "points": 21302,
+   "photographers": 875,
    "by_source": {
-    "flickr": 17590,
-    "commons": 10322,
-    "wikidata": 186,
-    "inat": 9911
+    "flickr": 17546,
+    "commons": 3533,
+    "wikidata": 107,
+    "inat": 116
    },
-   "top3_share": 0.0789,
-   "top5_share": 0.1315,
+   "top3_share": 0.1354,
+   "top5_share": 0.2012,
    "top5": [
     [
      "flickr:77987497@N00",
      1000
     ],
     [
-     "commons:Ltn12345",
-     1000
-    ],
-    [
      "commons:Orizan",
      1000
     ],
     [
-     "commons:Vuong Tri Binh",
-     1000
+     "flickr:14261684@N08",
+     885
     ],
     [
-     "commons:Phan Minh Tu\u1ea5n",
-     1000
+     "flickr:71138480@N00",
+     772
+    ],
+    [
+     "commons:Vuong Tri Binh",
+     629
     ]
    ]
   },
   {
    "cap": 500,
-   "points": 34289,
-   "photographers": 2642,
+   "points": 19407,
+   "photographers": 875,
    "by_source": {
-    "flickr": 16372,
-    "commons": 7843,
-    "wikidata": 183,
-    "inat": 9891
+    "flickr": 16328,
+    "commons": 2856,
+    "wikidata": 107,
+    "inat": 116
    },
-   "top3_share": 0.0437,
-   "top5_share": 0.0729,
+   "top3_share": 0.0773,
+   "top5_share": 0.1288,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -296,23 +303,23 @@
      500
     ],
     [
-     "commons:Newone",
+     "commons:Hi\u00e0n (alt)",
      500
     ]
    ]
   },
   {
    "cap": 200,
-   "points": 28719,
-   "photographers": 2642,
+   "points": 16304,
+   "photographers": 875,
    "by_source": {
-    "flickr": 14268,
-    "commons": 5052,
-    "wikidata": 173,
-    "inat": 9226
+    "flickr": 14224,
+    "commons": 1858,
+    "wikidata": 106,
+    "inat": 116
    },
-   "top3_share": 0.0209,
-   "top5_share": 0.0348,
+   "top3_share": 0.0368,
+   "top5_share": 0.0613,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -338,16 +345,16 @@
   },
   {
    "cap": 100,
-   "points": 24780,
-   "photographers": 2642,
+   "points": 13728,
+   "photographers": 875,
    "by_source": {
-    "flickr": 12283,
-    "commons": 3638,
-    "wikidata": 171,
-    "inat": 8688
+    "flickr": 12239,
+    "commons": 1269,
+    "wikidata": 104,
+    "inat": 116
    },
-   "top3_share": 0.0121,
-   "top5_share": 0.0202,
+   "top3_share": 0.0219,
+   "top5_share": 0.0364,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -373,16 +380,16 @@
   },
   {
    "cap": 50,
-   "points": 20500,
-   "photographers": 2642,
+   "points": 11136,
+   "photographers": 875,
    "by_source": {
-    "flickr": 10060,
-    "commons": 2534,
-    "wikidata": 164,
-    "inat": 7742
+    "flickr": 10016,
+    "commons": 901,
+    "wikidata": 103,
+    "inat": 116
    },
-   "top3_share": 0.0073,
-   "top5_share": 0.0122,
+   "top3_share": 0.0135,
+   "top5_share": 0.0224,
    "top5": [
     [
      "flickr:75234007@N06",
@@ -407,87 +414,65 @@
    ]
   }
  ],
- "points_total": 42499,
+ "points_total": 22003,
  "points_by_class": {
-  "local": 25016,
-  "tourist": 14155,
-  "unknown": 3328
+  "local": 11146,
+  "tourist": 9219,
+  "unknown": 1638
  },
- "connecting_lines": 7601,
+ "connecting_lines": 2618,
  "per_source": {
   "flickr": {
-   "points": 19644,
-   "photographers": 726,
-   "local": 9189,
-   "tourist": 9546,
-   "unknown": 909,
+   "points": 19600,
+   "photographers": 722,
+   "local": 9170,
+   "tourist": 9513,
+   "unknown": 917,
    "coarse": 1145,
    "date_kinds": {
-    "taken": 19644
+    "taken": 19600
    }
   },
   "commons": {
-   "points": 16925,
-   "photographers": 411,
-   "local": 14068,
-   "tourist": 1250,
-   "unknown": 1607,
-   "coarse": 60,
+   "points": 4178,
+   "photographers": 122,
+   "local": 3135,
+   "tourist": 302,
+   "unknown": 741,
+   "coarse": 28,
    "date_kinds": {
-    "taken": 16525,
-    "upload": 400
+    "taken": 4162,
+    "upload": 16
    }
   },
   "inat": {
-   "points": 18519,
-   "photographers": 1891,
-   "local": 8677,
-   "tourist": 8412,
-   "unknown": 1430,
-   "coarse": 4622,
+   "points": 431,
+   "photographers": 54,
+   "local": 77,
+   "tourist": 305,
+   "unknown": 49,
+   "coarse": 192,
    "date_kinds": {
-    "observed": 18448,
-    "upload": 71
+    "observed": 431
    }
   },
   "wikidata": {
-   "points": 300,
-   "photographers": 142,
-   "local": 173,
-   "tourist": 17,
-   "unknown": 110,
-   "coarse": 300,
+   "points": 188,
+   "photographers": 88,
+   "local": 93,
+   "tourist": 14,
+   "unknown": 81,
+   "coarse": 188,
    "date_kinds": {
-    "taken": 281,
-    "upload": 18,
+    "taken": 170,
+    "upload": 17,
     "unstated": 1
    }
   }
  },
- "per_source_renders": {
-  "commons": {
-   "png": "hanoi_multi_commons_6137.png",
-   "points": 14158,
-   "lines": 3626
-  },
-  "flickr": {
-   "png": "hanoi_multi_flickr_6137.png",
-   "points": 18230,
-   "lines": 2403
-  },
-  "inat": {
-   "png": "hanoi_multi_inat_6137.png",
-   "points": 9911,
-   "lines": 1572
-  },
-  "wikidata": {
-   "png": "hanoi_multi_wikidata_6137.png",
-   "points": 200,
-   "lines": 0
-  }
- },
+ "per_source_renders": {},
  "shared_pins": {
-  "coords": 52,
-  "photos": 2198
+  "coords": 37,
+  "photos": 1381
  }
 }

@@ -63,12 +63,25 @@ republishes iNaturalist; Commons holds bot-transferred Flickr files, whose
 `extmetadata.Artist` can still carry the original Flickr NSID, so the original
 id is recovered where possible.
 
-**Per-user capping is exposed, not chosen silently.** Commons is pathologically
-concentrated: 432 uploaders in the Hanoi box with the top three holding 46% of
-the rows. Uncapped, the merged map is substantially three people's albums.
-`cap_sweep` reports what several caps do to the point count, the photographer
-count and the top-5 share, and the last of those is the number that says
-whether you are looking at a city or an album.
+**Per-user capping is exposed, and the measurement argued against using it.**
+Commons on its own is pathologically concentrated: 432 uploaders in the Hanoi
+box with the top three holding 46% of the rows, which is why capping was built
+in the first place. But the right question is not whether Commons is
+concentrated, it is whether the *merged* map is more concentrated than the
+faithful single-source map it sits beside. Measured on the drawn canvas:
+
+    single-source (faithful)   20,274 points   817 photographers   top-5 21.3%
+    merged, no cap             42,499 points  2,642 photographers  top-5 22.3%
+    merged, cap 1000           38,009 points  2,642 photographers  top-5 13.2%
+    merged, cap 500            34,289 points  2,642 photographers  top-5  7.3%
+
+Uncapped, the merge is 22.3% against the baseline's 21.3%: the same picture,
+because Flickr and iNaturalist between them dilute the Commons concentration.
+Capping at 500 would make the merged map markedly *less* concentrated than
+Fischer's own, which is an intervention away from the baseline rather than
+towards it. So the default is **no cap**, and `cap_sweep` is still printed on
+every build so the choice stays visible. An earlier draft of this file asserted
+the opposite; the numbers above are why it changed.
 
 ## Sources
 
@@ -103,16 +116,42 @@ city from their posting history in order to colour them is profiling of private
 individuals. The sources above all use location data the photographer chose to
 attach to their own photograph.
 
+## What the merge shows
+
+With every source in and no cap, on Fischer's own Hanoi box:
+
+    photographers   local 438   tourist 1,983   unknown 1,010   (10 untestable)
+    points          local 25,016  tourist 14,155  unknown 3,328
+    42,499 points and 7,601 connecting lines from 2,642 photographers
+    by source: flickr 18,230   commons 14,158   inat 9,911   wikidata 200
+
+The colour balance inverts against the faithful map. Single-source Flickr is
+tourist-dominated at 51% of plotted photographs; the merged map is 59% local.
+That is the most interesting thing here and it is a property of who uses each
+platform, not of Hanoi: Wikimedia Commons uploaders and iNaturalist observers
+documenting a city are far more likely to live in it, while the Flickr
+Creative-Commons slice skews to visitors. Read it as a statement about the
+sources, not as a correction to the original.
+
 ## Known gaps
 
-- **Commons worldwide history is being backfilled** by
-  `lat/harvest_history.py`, which was written because the original harvest did
-  not deliver it. Until it completes, Commons uploaders have no evidence of
-  residency elsewhere and fall to "unknown" for lack of data rather than
-  because the data says so. The same applies to the iNaturalist observers not
-  yet covered. `stats.json` reports `history_rows` per source, and
-  `photographers_untestable` counts those with no history at all: read both
-  before drawing any conclusion from the merged colour split.
+- **History is now complete enough to classify, but it is truncated per
+  photographer.** `lat/harvest_history.py` backfilled Commons (124,166 rows
+  over 457 uploaders, 105,409 capture dates against 332 upload dates) and
+  iNaturalist (419,865 rows over 1,859 observers). Untestable photographers
+  fell from 2,390 to 10. Two truncations matter and both bias the same way:
+  Commons stops at 6 request pages per uploader and iNaturalist takes only the
+  earliest and latest 200 observations, so a photographer's home city can be
+  missed. Missing history can only ever *remove* evidence of residency
+  elsewhere, so the bias is toward "unknown" and never toward a false
+  "tourist". 76 Commons uploaders hit the page bound, 835 iNaturalist observers
+  were truncated, and 9 Commons plus 8 iNaturalist users failed on transport
+  errors and have no history at all.
+- **`data/multi/inat_history.tsv` is not in the repository** (20 MB), nor are
+  the histories of the two excluded sources. Regenerate with
+  `PYTHONPATH=. .venv/bin/python lat/harvest_history.py inat --workers 3 --pause 3.0`,
+  which takes roughly 90 minutes and holds iNaturalist's requested 60
+  requests/minute in aggregate.
 - **The Commons SQL-dump cross-check was never completed.** It was meant to
   give an independent count of geotagged namespace-6 files in the Hanoi box, to
   test whether the API harvest's quadtree geosearch was complete. The API

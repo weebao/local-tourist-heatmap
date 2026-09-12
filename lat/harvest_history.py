@@ -118,38 +118,47 @@ def commons_history(user, session, cap=PER_USER_CAP, pause=1.0,
 
 
 # -------------------------------------------------------------- iNaturalist
-def inat_history(user, session, cap=PER_USER_CAP, pause=1.1,
-                 max_pages=20):
-    """Every geotagged observation by `user`, as (date, lon, lat).
+def inat_history(user, session, cap=PER_USER_CAP, pause=1.05, max_pages=2):
+    """Geotagged observations at the temporal EXTREMES of `user`'s record.
+
+    Paging a prolific observer's whole history costs five or more requests
+    each, and at the 60 requests/minute iNaturalist asks for, 1,900 observers
+    would take five hours. Two requests suffice for what the residency test
+    needs: the earliest 200 observations and the latest 200. A span test asks
+    how far apart a photographer's dates are inside one 15-mile box, so the
+    ends of their record are the informative part. The first 400 rows in id
+    order are merely their oldest and say nothing about whether they are still
+    there.
 
     Obscured and private coordinates are refused: iNaturalist randomises those
     inside roughly 0.2 degrees, about 22 km, which is noise at any scale this
     project renders, and letting them into a residency test would invent
     presence in a city the observer may never have visited.
     """
-    out, above, pages = [], 0, 0
-    while True:
-        if pages >= max_pages:
-            return out, Counter(), "page_limit"
-        pages += 1
-        p = {"user_login": user, "per_page": "200", "order_by": "id",
-             "order": "asc", "id_above": str(above), "geo": "true"}
+    out, seen, note = [], set(), None
+    orders = ("asc", "desc")[:max(1, min(2, max_pages))]
+    for order in orders:
+        params = {"user_login": user, "per_page": "200",
+                  "order_by": "observed_on", "order": order, "geo": "true"}
         try:
             r = session.get("https://api.inaturalist.org/v1/observations",
-                            params=p, timeout=60)
+                            params=params, timeout=60)
             if r.status_code == 429:
                 time.sleep(30)
-                continue
+                r = session.get("https://api.inaturalist.org/v1/observations",
+                                params=params, timeout=60)
             if r.status_code != 200:
                 return out, Counter(), f"http {r.status_code}"
             res = r.json().get("results", []) or []
         except Exception as ex:
-            time.sleep(5)
-            return out, Counter(), f"{type(ex).__name__}"
-        if not res:
-            return out, Counter(), None
+            return out, Counter(), type(ex).__name__
+        if len(res) >= 200:
+            note = "truncated"
         for o in res:
-            above = max(above, o.get("id") or 0)
+            oid = o.get("id")
+            if oid in seen:
+                continue
+            seen.add(oid)
             if (o.get("geoprivacy") in ("obscured", "private")
                     or o.get("taxon_geoprivacy") in ("obscured", "private")
                     or o.get("obscured")):
@@ -164,20 +173,21 @@ def inat_history(user, session, cap=PER_USER_CAP, pause=1.1,
                     or o.get("created_at"))
             if date:
                 out.append((str(date), lon, lat))
-        if len(out) >= cap:
-            return out[:cap], Counter(), "capped"
         time.sleep(pause)
+    return out[:cap], Counter(), note
 
 
 SPECS = {
     "commons": dict(hanoi="commons_hanoi.tsv", out="commons_history.tsv",
-                    cols=["user"], fn=commons_history, pause=0.4),
+                    cols=["user"], fn=commons_history, pause=0.15,
+                    max_pages=6),
     "inat": dict(hanoi="inat_hanoi.tsv", out="inat_history.tsv",
-                 cols=["user"], fn=inat_history, pause=1.1),
+                 cols=["user"], fn=inat_history, pause=1.05,
+                 max_pages=2),
 }
 
 
-def main(source, limit=None):
+def main(source, limit=None, max_pages=None, workers=1, pause=None):
     spec = SPECS[source]
     hanoi = os.path.join(MULTI, spec["hanoi"])
     outp = os.path.join(MULTI, spec["out"])
@@ -192,13 +202,27 @@ def main(source, limit=None):
           f"{len(already)} already have history, {len(todo)} to fetch",
           flush=True)
 
+    mp = max_pages if max_pages else spec.get("max_pages", 20)
+    pz = pause if pause else spec["pause"]
     session = requests.Session()
     session.headers["User-Agent"] = UA
     f, w = open_appender(outp)
     tot, kinds, fails = 0, Counter(), Counter()
+
+    def fetch(u):
+        # One session per worker: requests.Session is not documented
+        # thread-safe, and sharing one produced no speedup worth the risk.
+        s = requests.Session()
+        s.headers["User-Agent"] = UA
+        return (u,) + spec["fn"](u, s, pause=pz, max_pages=mp)
+
     try:
-        for i, u in enumerate(todo, 1):
-            rows, k, note = spec["fn"](u, session, pause=spec["pause"])
+        if workers > 1:
+            from concurrent.futures import ThreadPoolExecutor
+            it = ThreadPoolExecutor(workers).map(fetch, todo)
+        else:
+            it = (fetch(u) for u in todo)
+        for i, (u, rows, k, note) in enumerate(it, 1):
             kinds.update(k)
             if note:
                 fails[note] += 1
@@ -210,7 +234,6 @@ def main(source, limit=None):
                 print(f"  [{i}/{len(todo)}] {u[:28]:28s} +{len(rows):5d} rows "
                       f"total {tot:,}" + (f"  notes={dict(fails)}" if fails else ""),
                       flush=True)
-            time.sleep(spec["pause"])
     finally:
         f.close()
     print(f"DONE {source}: {tot:,} history rows for {len(todo)} photographers")
@@ -224,5 +247,17 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("source", choices=sorted(SPECS))
     ap.add_argument("--limit", type=int, default=None)
+    # Truncating a photographer's history can only ever LOSE evidence of
+    # residency elsewhere, so it biases toward "unknown" - the same direction
+    # as having no history at all, never toward a false "tourist".
+    ap.add_argument("--max-pages", type=int, default=None,
+                    help="cap requests per photographer (default per source)")
+    ap.add_argument("--pause", type=float, default=None,
+                    help="per-request sleep inside a worker; with N workers "
+                         "the aggregate rate is roughly N/pause per second, "
+                         "so raise it when raising --workers")
+    ap.add_argument("--workers", type=int, default=1,
+                    help="concurrent photographers; keep at 1 for providers "
+                         "that ask for a request rate (iNaturalist)")
     a = ap.parse_args()
-    main(a.source, a.limit)
+    main(a.source, a.limit, a.max_pages, a.workers, a.pause)

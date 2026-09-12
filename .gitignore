@@ -20,3 +20,9 @@ data/multi/*.log
 data/multi/*.orig
 data/multi/*.superseded
 data/multi/*.merged
+
+# Regenerable with lat/harvest_history.py; too large for the repo.
+data/multi/inat_history.tsv
+# Histories of sources the merge excludes (see data/multi/MERGE.md).
+data/multi/gbif_history.tsv
+data/multi/panoramax_history.tsv
